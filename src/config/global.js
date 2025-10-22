@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Comercio sostenible',
+    Description:
+      'El componente formativo Comercio sostenible aborda los negocios verdes desde su marco legal en Colombia, oportunidades y tendencias. Profundiza en la demanda y oferta verde, perfil del cliente, productos sostenibles, valor agregado, formatos comerciales y creación de portafolios. Promueve prácticas responsables con el ambiente, orientadas al mercado actual y al desarrollo económico sostenible.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +36,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Negocios verdes',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Marco referencial y legal en Colombia',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Oportunidades',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Tendencias del mercado',
+            hash: 't_1_3',
           },
         ],
       },
