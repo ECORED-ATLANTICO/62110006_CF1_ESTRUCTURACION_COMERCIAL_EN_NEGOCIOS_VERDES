@@ -350,7 +350,8 @@ export default {
     {
       referencia:
         'Ministerio de Ambiente y Desarrollo Sostenible. (2023). <em>Catálogo de negocios verdes 2023.</em>',
-      link: 'https://www.minambiente.gov.co/wp-content/uploads/2023/12/CATALOGO-NEGOCIOS-VERDES-2023-4.pdf',
+      link:
+        'https://www.minambiente.gov.co/wp-content/uploads/2023/12/CATALOGO-NEGOCIOS-VERDES-2023-4.pdf',
     },
   ],
   creditos: [
