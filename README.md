@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/62110006_CF1_ESTRUCTURACION_COMERCIAL_EN_NEGOCIOS_VERDES/](https://ecored-atlantico.github.io/62110006_CF1_ESTRUCTURACION_COMERCIAL_EN_NEGOCIOS_VERDES/)
+[ https://ecored-atlantico.github.io/62110006_CF1_ESTRUCTURACION_COMERCIAL_EN_NEGOCIOS_VERDES/]( https://ecored-atlantico.github.io/62110006_CF1_ESTRUCTURACION_COMERCIAL_EN_NEGOCIOS_VERDES/)
 
 #
 
