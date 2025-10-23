@@ -41,6 +41,17 @@
           img(src="@/assets/curso/temas/tema_1/img_3.svg", class="img-fluid")
       .col-12.col-lg-8(data-aos="zoom-in-right")
         p.mb-0 Estas acciones están en plena consonancia con los objetivos de desarrollo sostenible (ODS) planteados en la Agenda 2030 de la Organización de las Naciones Unidas (ONU), especialmente con aquellos que promueven la acción por el clima (ODS 13), la vida de ecosistemas terrestres (ODS 15) y la producción y consumo responsables (ODS 12).
+    
+    separador
+    #t_1_2.titulo-segundo.color-acento-contenido
+      .h2(data-aos="fade-right") 1.2.	Oportunidades
+    .mb-3
+
+
+     separador
+    #t_1_3.titulo-segundo.color-acento-contenido
+      .h2(data-aos="fade-right") 1.3.	Tendencias del mercado
+    .mb-3
 </template>
 
 <script>

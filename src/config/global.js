@@ -62,48 +62,209 @@ export default {
         numero: '2',
         titulo: 'Demanda verde',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Clases',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Métodos',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Efectos',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Tendencias',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Proyección',
+            hash: 't_2_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Oferta verde',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Clases',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Métodos',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Efectos',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Tendencias',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Proyección',
+            hash: 't_3_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
         titulo: 'Perfil del cliente verde',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Concepto',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Caracterización',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Tipologías',
+            hash: 't_4_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
         titulo: 'Productos y servicios verdes',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Concepto',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Tipo',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Características',
+            hash: 't_5_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
         titulo: 'Valor agregado y paquete de beneficios',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Concepto',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Estructura',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Aplicabilidad',
+            hash: 't_6_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema7',
         numero: '7',
         titulo: 'Formatos comerciales verdes',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '7.1',
+            titulo: 'Concepto',
+            hash: 't_7_1',
+          },
+          {
+            numero: '7.2',
+            titulo: 'Tipos',
+            hash: 't_7_2',
+          },
+          {
+            numero: '7.3',
+            titulo: 'Clasificación',
+            hash: 't_7_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema8',
         numero: '8',
         titulo: 'Portafolio de productos y servicios verdes',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '8.1',
+            titulo: 'Concepto',
+            hash: 't_8_1',
+          },
+          {
+            numero: '8.2',
+            titulo: 'Estructura',
+            hash: 't_8_2',
+          },
+          {
+            numero: '8.3',
+            titulo: 'Aplicabilidad',
+            hash: 't_8_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema9',
         numero: '9',
         titulo: '<em>Brochure</em>',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '9.1',
+            titulo: 'Concepto',
+            hash: 't_8_1',
+          },
+          {
+            numero: '9.2',
+            titulo: 'Tipos',
+            hash: 't_8_2',
+          },
+        ],
       },
     ],
     subMenu: [
