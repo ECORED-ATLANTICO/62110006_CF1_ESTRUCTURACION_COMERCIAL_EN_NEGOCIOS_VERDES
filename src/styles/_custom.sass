@@ -91,13 +91,13 @@ figcaption
       
     .cita-decorada__imagen-flotante-1
       position: absolute
-      transform: translateY(-120px) translateX(-15px)
+      transform: translateY(-60px) translateX(25px)
       z-index: 3
-      max-width: 300px
+      max-width: 130px
       margin: 0 auto
       @media (max-width: 1025px)
-        transform: translateY(-100px) translateX(-15px)
-        max-width: 220px
+        transform: translateY(-60px) translateX(15px)
+        max-width: 120px
       
     .cita-decorada__imagen-flotante-2
       position: absolute
@@ -209,7 +209,6 @@ figcaption
         transform: translateY(-80px) translateX(5px)
         max-width: 220px
 
-
 // Tabla a 
 .tabla-a thead
   border-top: 5px $color-primario solid
@@ -234,7 +233,7 @@ figcaption
       content: ''
       position: absolute
       margin: 0
-      top: -290px
+      top: -165px
       left: -48px
       width: calc(100% + 96px)
       height: 100%
@@ -249,11 +248,11 @@ figcaption
       content: ''
       position: absolute
       margin: 0
-      top: -165px
+      top: 0
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url('../assets/curso/temas/tema_2/img_2.png') !important
+      background-image: url('../assets/curso/temas/tema_2/img_3.png') !important
       background-repeat: no-repeat
       pointer-events: none
   &_3
@@ -268,6 +267,21 @@ figcaption
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url('../assets/curso/temas/tema_3/img_2.png') !important
+      background-image: url('../assets/curso/temas/tema_2/img_16.png') !important
+      background-repeat: no-repeat
+      pointer-events: none
+  &_4
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -165px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_2/img_15.png') !important
       background-repeat: no-repeat
       pointer-events: none
