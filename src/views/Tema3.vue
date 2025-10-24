@@ -13,7 +13,9 @@
             img(src="@/assets/curso/temas/tema_3/img_1.png", class="img-fluid")
         .col-12.col-lg-7(data-aos="zoom-in-right")
           p.mb-3 La oferta verde incluye productos y servicios que se crean pensando en el cuidado del medio ambiente. Hoy, las empresas que ofrecen soluciones sostenibles no solo protegen el planeta, sino que también responden a una creciente demanda de consumidores responsables. Apostar por una oferta verde es invertir en un futuro más limpio y justo.
+    
     separador
+
     #t_3_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 3.1.	Concepto
     .mb-3
@@ -62,7 +64,7 @@
         .col-12.col-lg-10.mb-5
           .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
             h5 Figura 4.
-            span Tendencias de la oferta sostenible.. 
+            span Tendencias de la oferta sostenible.
           figure(data-aos="zoom-in-right")
             img(src='@/assets/curso/temas/tema_3/img_12.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la figura se describen tendencias de la oferta sostenible: Consumo consciente: mayor demanda de transparencia y ética. Digitalización educativa: uso de medios digitales para educar en sostenibilidad. Economía circular: preferencia por productos reutilizables y reciclables. Servicios sostenibles: expansión de sectores con bajo impacto ambiental.")
             img(src='@/assets/curso/temas/tema_3/img_13.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la figura se describen tendencias de la oferta sostenible: Consumo consciente: mayor demanda de transparencia y ética. Digitalización educativa: uso de medios digitales para educar en sostenibilidad. Economía circular: preferencia por productos reutilizables y reciclables. Servicios sostenibles: expansión de sectores con bajo impacto ambiental.")
