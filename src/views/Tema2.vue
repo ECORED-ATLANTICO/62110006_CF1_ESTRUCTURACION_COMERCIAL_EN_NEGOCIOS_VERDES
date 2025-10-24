@@ -46,8 +46,19 @@
             .h2(data-aos="fade-right") 2.2.	Clases
           .mb-3
         .col-12.col-lg-10 
-          p.mb-0 La demanda verde no es homogénea; varía según el grado de conocimiento, compromiso y comportamiento del consumidor frente a la sostenibilidad. Se pueden identificar varias clases:
+          p.mb-3 La demanda verde no es homogénea; varía según el grado de conocimiento, compromiso y comportamiento del consumidor frente a la sostenibilidad. Se pueden identificar varias clases:
 
+      
+      .row.justify-content-center.align-items-center
+        .col-12.col-lg-10.mb-5
+          .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+            h5 Figura 1.
+            span Clasificación de la demanda sostenible. 
+          figure(data-aos="zoom-in-right")
+            img(src='@/assets/curso/temas/tema_2/img_10.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la figura se muestra las clases de demanda verde: Demanda latente: hay interés por productos verdes, pero falta oferta o información. Demanda emergente: aumenta la conciencia ambiental, pero no todos pagan más. Demanda consolidada: los consumidores valoran la sostenibilidad y pagan por ella. Demanda creciente: el consumo verde se expande y se vuelve común.")
+            img(src='@/assets/curso/temas/tema_2/img_11.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la figura se muestra las clases de demanda verde: Demanda latente: hay interés por productos verdes, pero falta oferta o información. Demanda emergente: aumenta la conciencia ambiental, pero no todos pagan más. Demanda consolidada: los consumidores valoran la sostenibilidad y pagan por ella. Demanda creciente: el consumo verde se expande y se vuelve común.")
+          figcaption(data-aos="zoom-in-right") 
+            <b>Fuente:</b> SENA, 2025.
 
     separador
 
@@ -55,6 +66,17 @@
       .h2(data-aos="fade-right") 2.3.	Métodos
     .mb-3
 
+      .row.justify-content-center.align-items-center
+        .col-12.col-lg-10.mb-5
+          .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+            h5 Figura 3.
+            span Métodos de evaluación y seguimiento a la demanda. 
+          figure(data-aos="zoom-in-right")
+            img(src='@/assets/curso/temas/tema_2/img_13.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la figura se describe Metodologías de alcance de la demanda sostenible: Encuestas de opinión y mercado: recogen percepciones y hábitos sobre productos verdes. Análisis de ventas y cuotas de mercado: miden el desempeño de productos sostenibles en el mercado. Monitoreo digital: analizan tendencias y comportamiento online con herramientas tecnológicas. Evaluación de imagen y reputación: estudian cómo se percibe la sostenibilidad de una marca.")
+            img(src='@/assets/curso/temas/tema_2/img_14.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la figura se describe Metodologías de alcance de la demanda sostenible: Encuestas de opinión y mercado: recogen percepciones y hábitos sobre productos verdes. Análisis de ventas y cuotas de mercado: miden el desempeño de productos sostenibles en el mercado. Monitoreo digital: analizan tendencias y comportamiento online con herramientas tecnológicas. Evaluación de imagen y reputación: estudian cómo se percibe la sostenibilidad de una marca.")
+          figcaption(data-aos="zoom-in-right") 
+            <b>Fuente:</b> SENA, 2025.
+    
     separador
 
     #t_2_4.titulo-segundo.color-acento-contenido
@@ -66,6 +88,17 @@
     #t_2_5.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 2.5.	Tendencias
     .mb-3
+
+      .row.justify-content-center.align-items-center
+        .col-12.col-lg-10.mb-5
+          .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+            h5 Figura 3.
+            span Tendencias de la demanda sostenible. 
+          figure(data-aos="zoom-in-right")
+            img(src='@/assets/curso/temas/tema_2/img_22.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la figura  se describen tendencias de la demanda sostenible: Consumo consciente y transparente: mayor preferencia por productos éticos y con certificaciones. Digitalización educativa: redes y plataformas influyen en decisiones sostenibles. Economía circular: interés en productos reutilizables y con menos residuos. Servicios sostenibles: crecen sectores como turismo ecológico y moda ética.")
+            img(src='@/assets/curso/temas/tema_2/img_23.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la figura  se describen tendencias de la demanda sostenible: Consumo consciente y transparente: mayor preferencia por productos éticos y con certificaciones. Digitalización educativa: redes y plataformas influyen en decisiones sostenibles. Economía circular: interés en productos reutilizables y con menos residuos. Servicios sostenibles: crecen sectores como turismo ecológico y moda ética.")
+          figcaption(data-aos="zoom-in-right") 
+            <b>Fuente:</b> SENA, 2025.
 
     separador
 

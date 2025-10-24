@@ -15,7 +15,7 @@
         .col-12.col-lg-9(data-aos="zoom-in-right")
           p.mb-3 En la actualidad es importante desarrollar y participar en negocios que respeten el medioambiente y generen beneficios sociales y económicos. A través del estudio de los negocios verdes, se conocerá qué son, qué leyes los respaldan en Colombia y cuáles son las oportunidades actuales para emprender con responsabilidad y sostenibilidad.
           p.mb-3 También se abordarán temas clave como la demanda y la oferta verde, analizando cómo piensan los consumidores conscientes, qué productos prefieren y cómo las empresas pueden responder a esas nuevas necesidades. Además, se aprenderá a identificar las tendencias del mercado, los tipos de clientes verdes y sus características.
-          .cajon.color-adicional-1.p-2.mb-0
+          .cajon.color-acento-contenido.p-4.mb-0
             .row.justify-content-center.align-items-center
               .col-12.col-lg-11
                 p.mb-0 El aprendiz tendrá la oportunidad de conocer productos y servicios sostenibles, aprenderá a darles valor agregado y a presentarlos de forma atractiva mediante formatos comerciales verdes, portafolios y brochures. Esto le permitirá desarrollar competencias para crear o apoyar proyectos que cuiden el planeta y aporten al bienestar de su comunidad.
