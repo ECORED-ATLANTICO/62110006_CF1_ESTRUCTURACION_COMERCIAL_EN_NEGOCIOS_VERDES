@@ -84,6 +84,13 @@ figcaption
 
     &--fondo-1
       background-image: url('../assets/curso/temas/tema_1/img_4.png')
+    
+    &--fondo-2
+      background-image: url('../assets/curso/temas/tema_2/img_1.png')
+
+    &--fondo-3
+      background-image: url('../assets/curso/temas/tema_2/img_9.png')
+
 
     [class*="cita-decorada__imagen-flotante"]
       width: 100%
@@ -285,3 +292,117 @@ figcaption
       background-image: url('../assets/curso/temas/tema_2/img_15.png') !important
       background-repeat: no-repeat
       pointer-events: none
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: $color-primario-5
+
+.acordion__accion__btn--a
+  background-color: $color-terciario !important
+  color: $white !important
+.acordion__activo
+  background-color: #FAFEF2 !important
+.tarjeta.acordeonA figcaption
+  background-color: $color-primario-5
+  color: #12263F
+  font-weight: bold
+  text-align: center
+  padding: 8px
+  width: 100%
+
+// tarjeta-tabs-a
+.tarjeta-tabs-a
+  margin-bottom: 0 !important
+  .tabs-a__tab
+    margin-bottom: 0px !important
+    background-color: $color-primario
+    &:hover
+      background-color: $color-acento-botones
+      color: $white
+    &::before
+      background-color: $color-acento-botones
+      color: $white
+    &__selected
+      background-color: $color-acento-botones
+      color: $white
+  .tabs-a__content-item
+    height: 100%
+  &__tarjeta
+    display: flex
+    flex-direction: column
+    gap: 3px
+    justify-content: center
+
+// factores-slider custom-slider
+.factores-slider, .custom-slider
+  &__icon 
+    max-height: 93px
+  .h-95
+    height: 95% !important
+  .slyder-f
+    align-items: center
+    justify-content: center
+    gap: 0
+  .slyder-f__btn
+    background-color: $color-acento-botones
+    color: $white !important
+    height: 42px
+    width: 42px
+    min-width: 42px
+    border-radius: 50%
+    padding: 0 !important
+    transition: transform 0.3s
+    z-index: 100
+    
+    &:hover
+      transform: scale(1.1)
+    .fa-chevron-left, .fa-chevron-right
+      font-size: 1.5rem
+    &.ps-3
+      margin-left: 7px
+      @media (max-width: 1024px)
+        margin-left: 7px
+    &.pe-3
+      margin-right: 7px
+      @media (max-width: 1024px)
+        margin-right: 7px
+  &--fondo__slider-3
+    &__icon 
+      max-height: 93px
+    .h-95
+      height: 95% !important
+    .slyder-f
+      align-items: center
+      justify-content: center
+      gap: 0
+    .slyder-f__btn
+      background-color: $color-acento-botones !important
+      color: $white !important
+      height: 42px
+      width: 42px
+      min-width: 42px
+      border-radius: 50%
+      padding: 0 !important
+      transition: transform 0.3s
+      &:hover
+        transform: scale(1.1)
+      .fa-chevron-left, .fa-chevron-right
+        font-size: 1.5rem
+      &.ps-3
+        margin-left: 7px
+        @media (max-width: 1024px)
+          margin-left: 7px
+      &.pe-3
+        margin-right: 7px
+        @media (max-width: 1024px)
+          margin-right: 7px
+
+///BG_color
+.bg-color-secundario
+  background-color: $color-secundario
+.tarjeta--slider__title
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15) !important
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.bg-color-acento-contenido-5
+  background-color: $color-acento-contenido-5
