@@ -7,10 +7,17 @@
         span 3
       h1 Oferta verde
     
+    .row.justify-content-center.align-items-center.mb-5
+        .col-8.col-lg-3.mb-lg-0.mb-3(data-aos="zoom-in-right")
+          figure
+            img(src="@/assets/curso/temas/tema_3/img_1.png", class="img-fluid")
+        .col-12.col-lg-7(data-aos="zoom-in-right")
+          p.mb-3 La oferta verde incluye productos y servicios que se crean pensando en el cuidado del medio ambiente. Hoy, las empresas que ofrecen soluciones sostenibles no solo protegen el planeta, sino que también responden a una creciente demanda de consumidores responsables. Apostar por una oferta verde es invertir en un futuro más limpio y justo.
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 3.1.	Concepto
     .mb-3
+    
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido
@@ -22,6 +29,16 @@
       .h2(data-aos="fade-right") 3.3.	Métodos
     .mb-3
 
+    .tarjeta.color-secundario-10.rounded-0.overflow-hidden.mb-5(data-aos="fade-right")
+        .row.g-0.align-items-stretch
+          .col-12.col-lg-5.mb-lg-0.mb-3
+            img(src="@/assets/curso/temas/tema_3/img_5.png", class="w-100 h-100", style="object-fit: cover; min-height: 200px;")
+          .col-12.col-lg-7
+            .p-4.p-lg-5.d-flex.align-items-center.h-100
+              div
+                p.mb-3 El desarrollo de una oferta verde sólida requiere herramientas metodológicas que permitan comprender el comportamiento del consumidor, las dinámicas del mercado y la percepción de sostenibilidad asociada a los productos y servicios. Estas metodologías facilitan la toma de decisiones estratégicas en las organizaciones, al proporcionar información valiosa sobre tendencias, oportunidades de innovación y posicionamiento ambiental. A continuación, se resume los principales métodos utilizados para el análisis y desarrollo de la oferta verde.
+                p.mb-3 <b>Principales métodos de análisis de la oferta verde:</b> 
+
     separador
     #t_3_4.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 3.4.	Efectos
@@ -31,6 +48,15 @@
     #t_3_5.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 3.5.	Tendencias
     .mb-3
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-8.col-lg-3.mb-lg-0.mb-3(data-aos="zoom-in-right")
+          figure
+            img(src="@/assets/curso/temas/tema_3/img_11.png", class="img-fluid")
+        .col-12.col-lg-7(data-aos="zoom-in-right")
+          p.mb-3 En los últimos años, la oferta de productos verdes ha crecido en cantidad y variedad, impulsada por una mayor conciencia ambiental, cambios en políticas y la innovación empresarial. El mercado verde se integra cada vez más en la economía, apoyado en la educación ambiental digital y modelos como la economía circular. 
+          p.mb-3 Las nuevas tendencias en consumo y producción apuntan hacia una mayor responsabilidad ambiental y social. A continuación, se destacan aspectos clave como el consumo consciente, la digitalización educativa, la economía circular y el auge de los servicios sostenibles. 
+          
 
       .row.justify-content-center.align-items-center
         .col-12.col-lg-10.mb-5
