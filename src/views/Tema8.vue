@@ -103,8 +103,11 @@
           .h2(data-aos="fade-right") 8.3.	Aplicabilidad
         .mb-3
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       
       
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 

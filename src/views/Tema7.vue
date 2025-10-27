@@ -67,7 +67,10 @@
       .mb-3
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     .tarjeta.color-acento-contenido-5.rounded-0.overflow-hidden.mb-5(data-aos="fade-right")
