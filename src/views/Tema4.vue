@@ -14,7 +14,7 @@
       .bloque-texto-t__texto.col-10.mb-0.p-4
         p.mb-0 El cliente verde se ha convertido en un referente dentro del nuevo modelo de consumo responsable. Su forma de actuar en el mercado se basa en principios éticos, sociales y ambientales. A continuación, se desarrolla su concepto, principales rasgos y las tipologías que lo representan, organizadas alfabéticamente para facilitar su comprensión.
     
-    .bg_img_6.mb-0
+    .bg_img_7.mb-0
 
       separador
 
@@ -33,8 +33,8 @@
           p.mb-3 Por ejemplo, una persona que adquiere frutas orgánicas de pequeños productores locales para apoyar economías rurales y evitar agroquímicos. Este tipo de cliente tiene una mirada crítica hacia los modelos tradicionales de consumo y se involucra activamente en prácticas que favorezcan el equilibrio entre desarrollo y sostenibilidad.
           .cajon.color-acento-contenido.p-4.mb-0
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-10
-                p.mb-0 Como señalan Gómez y Castaño (2020), el consumidor verde no solo compra diferente, también piensa y actúa desde una lógica transformadora.
+              .col-12.col-lg-12
+                h5.mb-0 Como señalan Gómez y Castaño (2020), el consumidor verde no solo compra diferente, también piensa y actúa desde una lógica transformadora.
       
       separador
 

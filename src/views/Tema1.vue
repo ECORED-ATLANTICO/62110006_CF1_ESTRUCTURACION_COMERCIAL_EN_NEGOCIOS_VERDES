@@ -137,6 +137,44 @@
         .col-12.col-lg-8(data-aos="zoom-in-right")
           p.mb-3 Las tendencias del mercado verde o sostenible reflejan una transformación profunda en la forma en que las empresas y los consumidores abordan la sostenibilidad. A continuación, se presentan las principales tendencias que están moldeando este panorama:
           p.mb-0 Principales tendencias del mercado verde o sostenible:
+    
+      .row.justify-content-center.align-items-center.mb-0
+        .col-12.col-lg-10 
+          ImagenInfografica.color-acento-contenido
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/temas/tema_1/img_11.svg', class="img-fluid d-none d-lg-block mb-3")
+                img(src='@/assets/curso/temas/tema_1/img_12.svg', class="img-fluid d-block d-lg-none mb-3")
+            .tarjeta--blanca.rounded-3.p-3(x="15%" y="35%" numero="1")
+              .h5.mb-2 
+              p
+            .tarjeta--blanca.rounded-3.p-3(x="30%" y="35%" numero="2")
+              .h5.mb-2 
+              p
+            .tarjeta--blanca.rounded-3.p-3(x="48%" y="35%" numero="3")
+              .h5.mb-2 
+              p
+            .tarjeta--blanca.rounded-3.p-3(x="65%" y="35%" numero="4")
+              .h5.mb-2 
+              p
+            .tarjeta--blanca.rounded-3.p-3(x="85%" y="35%" numero="5")
+              .h5.mb-2 
+              p
+            .tarjeta--blanca.rounded-3.p-3(x="15%" y="60%" numero="6")
+              .h5.mb-2 
+              p
+            .tarjeta--blanca.rounded-3.p-3(x="30%" y="60%" numero="7")
+              .h5.mb-2 
+              p
+            .tarjeta--blanca.rounded-3.p-3(x="48%" y="60%" numero="8")
+              .h5.mb-2 
+              p
+            .tarjeta--blanca.rounded-3.p-3(x="65%" y="60%" numero="9")
+              .h5.mb-2 
+              p
+            .tarjeta--blanca.rounded-3.p-3(x="85%" y="60%" numero="10")
+              .h5.mb-2 
+              p
 </template>
 
 <script>

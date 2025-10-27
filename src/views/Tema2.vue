@@ -98,8 +98,8 @@
           h5 Figura 1.
           span Clasificación de la demanda sostenible
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_2/img_10.svg', class="img-fluid d-none d-lg-block mb-3", alt="La figura, relaciona cinco herramientas para el análisis del entorno digital y cual es su aplicación en el marketing.")
-          img(src='@/assets/curso/temas/tema_2/img_11.svg', class="img-fluid d-block d-lg-none mb-3", alt="La figura, relaciona cinco herramientas para el análisis del entorno digital y cual es su aplicación en el marketing.")
+          img(src='@/assets/curso/temas/tema_2/img_10.svg', class="img-fluid d-none d-lg-block mb-3", class="img-fluid")
+          img(src='@/assets/curso/temas/tema_2/img_11.svg', class="img-fluid d-block d-lg-none mb-3", class="img-fluid")
         figcaption(data-aos="zoom-in-right") 
           <b>Fuente:</b> SENA, 2025.
 
@@ -132,8 +132,8 @@
           h5 Figura 2.
           span Métodos de evaluación y seguimiento a la demanda.
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_2/img_13.svg', class="img-fluid d-none d-lg-block mb-3", alt="La figura, relaciona cinco herramientas para el análisis del entorno digital y cual es su aplicación en el marketing.")
-          img(src='@/assets/curso/temas/tema_2/img_14.svg', class="img-fluid d-block d-lg-none mb-3", alt="La figura, relaciona cinco herramientas para el análisis del entorno digital y cual es su aplicación en el marketing.")
+          img(src='@/assets/curso/temas/tema_2/img_13.svg', class="img-fluid d-none d-lg-block mb-3", class="img-fluid")
+          img(src='@/assets/curso/temas/tema_2/img_14.svg', class="img-fluid d-block d-lg-none mb-3", class="img-fluid")
         figcaption(data-aos="zoom-in-right") 
           <b>Fuente:</b> SENA, 2025.
 
@@ -224,8 +224,8 @@
             h5 Figura 3.
             span Tendencias de la demanda sostenible.
           figure(data-aos="zoom-in-right")
-            img(src='@/assets/curso/temas/tema_2/img_22.svg', class="img-fluid d-none d-lg-block mb-3", alt="La figura, relaciona cinco herramientas para el análisis del entorno digital y cual es su aplicación en el marketing.")
-            img(src='@/assets/curso/temas/tema_2/img_23.svg', class="img-fluid d-block d-lg-none mb-3", alt="La figura, relaciona cinco herramientas para el análisis del entorno digital y cual es su aplicación en el marketing.")
+            img(src='@/assets/curso/temas/tema_2/img_22.svg', class="img-fluid d-none d-lg-block mb-3", class="img-fluid")
+            img(src='@/assets/curso/temas/tema_2/img_23.svg', class="img-fluid d-block d-lg-none mb-3", class="img-fluid")
           figcaption(data-aos="zoom-in-right") 
             <b>Fuente:</b> SENA, 2025.
 
@@ -252,7 +252,35 @@
       .col-6.col-lg-3.mb-lg-0.mb-3 
         figure
           img(src='@/assets/curso/temas/tema_2/img_24.png', class="img-fluid")
-      .col-12.col-lg-9
+      .col-12.col-lg-7
+        .crd--Horizontal.crd__acento-contenido-5.mb-lg-5.mb-3
+          .row.align-items-center
+            .col-auto.position-relative
+              figure
+                img(src="@/assets/curso/temas/tema_2/img_25.svg", alt="Control químico" class="img-fluid")
+            .col
+              p.mb-0 El endurecimiento de regulaciones ambientales a nivel global y local impulsa a las empresas a adoptar estándares verdes.
+        .crd--Horizontal.crd__acento-contenido-5.mb-lg-5.mb-3
+          .row.align-items-center
+            .col-auto.position-relative
+              figure
+                img(src="@/assets/curso/temas/tema_2/img_26.svg", alt="Control químico" class="img-fluid")
+            .col
+              p.mb-0 Los consumidores y ciudadanos incorporan cada vez más la sostenibilidad en sus valores y hábitos diarios.
+        .crd--Horizontal.crd__acento-contenido-5.mb-lg-5.mb-3
+          .row.align-items-center
+            .col-auto.position-relative
+              figure
+                img(src="@/assets/curso/temas/tema_2/img_27.svg", alt="Control químico" class="img-fluid")
+            .col
+              p.mb-0 Las innovaciones tecnológicas facilitan la producción y comercialización de productos sostenibles con costos competitivos.
+        .crd--Horizontal.crd__acento-contenido-5.mb-0
+          .row.align-items-center
+            .col-auto.position-relative
+              figure
+                img(src="@/assets/curso/temas/tema_2/img_28.svg", alt="Control químico" class="img-fluid")
+            .col
+              p.mb-0 El aumento del acceso a información confiable fortalece la conciencia y educación ambiental.
 </template>
 
 <script>

@@ -51,6 +51,28 @@
           p.mb-3 La oferta verde abarca diferentes categorías que responden a enfoques sostenibles en bienes, servicios, tecnologías y modelos productivos. Estas clases permiten identificar cómo las organizaciones adoptan prácticas que reducen su impacto ambiental y promueven beneficios sociales y económicos. A continuación, se presentan las principales clases de oferta verde, junto con su descripción y ejemplos relevantes.
           p.mb-0 Clases de oferta verde:
         .col-12.col-lg-6(data-aos="zoom-in-right")
+          .custom-slider.tarjeta--fondo__slider.p-2.mb-5.rounded-3
+            SlyderF().tarjeta.tarjeta--blanca.p-3.rounded-3
+              .row.justify-content-center.align-items-center
+                .col-12.col-lg-10.mb-0
+                  h5.mb-0 Productos ecológicos
+                  p.mb-3 Bienes diseñados para reducir su huella ambiental en todo su ciclo de vida, incluyendo materias primas sostenibles, empaque reciclable y eficiencia.
+                  p.mb-0 <B>Ejemplo:</B> detergentes biodegradables, empaques compostables.
+              .row.justify-content-center.align-items-center
+                .col-12.col-lg-10.mb-0
+                  h5.mb-0 Servicios sostenibles
+                  p.mb-3 Servicios que minimizan el impacto ambiental y fomentan el bienestar social, mediante el uso responsable de recursos y energías limpias.
+                  p.mb-0 <B>Ejemplo:</B> turismo ecológico, transporte eléctrico, finanzas verdes.
+              .row.justify-content-center.align-items-center
+                .col-12.col-lg-10.mb-0
+                  h5.mb-0 Tecnologías limpias
+                  p.mb-3 Soluciones tecnológicas que reducen la contaminación, el uso de energías no renovables o el desperdicio de recursos.
+                  p.mb-0 <B>Ejemplo:</B> paneles solares, sistemas de riego eficiente.
+              .row.justify-content-center.align-items-center
+                .col-12.col-lg-10.mb-0
+                  h5.mb-0 Negocios circulares
+                  p.mb-3 Modelos de producción y consumo basados en la reutilización, el reciclaje y la reducción de residuos.
+                  p.mb-0 <B>Ejemplo:</B> ropa reciclada, envases retornables.
 
       separador
 

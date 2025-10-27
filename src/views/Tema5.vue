@@ -56,6 +56,79 @@
                 h5.mb-0 Tipos de productos y servicios verdes:
         
     .bg_img_10.mb-0
+      SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Productos reciclables 
+            p.mb-3 Bienes que pueden ser reprocesados para crear nuevos productos tras su uso.
+            p.mb-0 <B>Ejemplo de producto verde:</B> botellas de vidrio retornables.
+            p.mb-0 <B>Ejemplo de servicio verde:</B> servicio de reciclaje de residuos sólidos urbanos.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_5/img_8.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Productos biodegradables
+            p.mb-3 Se descomponen naturalmente sin dañar el ambiente por acción de microorganismos.
+            p.mb-0 <B>Ejemplo de producto verde:</B> bolsas hechas de almidón de maíz.
+            p.mb-0 <B>Ejemplo de servicio verde:</B> gestión de residuos orgánicos en restaurantes o empresas.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_5/img_9.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Productos reutilizables
+            p.mb-3 Diseñados para múltiples usos, reduciendo la generación de basura.
+            p.mb-0 <B>Ejemplo de producto verde:</B> bolsas de tela reutilizables para compras.
+            p.mb-0 <B>Ejemplo de servicio verde:</B> alquiler de envases retornables para bebidas o alimentos.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_5/img_10.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Productos orgánicos
+            p.mb-3 Producidos sin pesticidas ni químicos sintéticos.
+            p.mb-0 <B>Ejemplo de producto verde:</B> frutas y verduras orgánicas certificadas.
+            p.mb-0 <B>Ejemplo de servicio verde:</B> servicio de catering con alimentos orgánicos y locales.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_5/img_11.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Productos de bajo impacto
+            p.mb-3 Fabricados con procesos que reducen emisiones y consumo de recursos.
+            p.mb-0 <B>Ejemplo de producto verde:</B> ropa hecha con algodón reciclado.
+            p.mb-0 <B>Ejemplo de servicio verde:</B> auditorías energéticas para mejorar la eficiencia de edificios.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_5/img_12.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Servicios de movilidad sostenible
+            p.mb-3 Transporte que reduce la huella de carbono y utiliza energías limpias.
+            p.mb-0 <B>Ejemplo de producto verde:</B> vehículo eléctrico para uso personal (producto/activo).
+            p.mb-0 <B>Ejemplo de servicio verde:</B> servicio de bicicletas compartidas eléctricas en ciudad.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_5/img_13.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Servicios ecoturísticos
+            p.mb-3 Actividades que conservan la biodiversidad y benefician comunidades locales.
+            p.mb-0 <B>Ejemplo de producto verde:</B> Souvenirs hechos con materiales reciclados (producto).
+            p.mb-0 <B>Ejemplo de servicio verde:</B> tours guiados en reservas naturales con prácticas sustentables.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_5/img_14.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Servicios de eficiencia energética
+            p.mb-3 Soluciones para optimizar el consumo energético en hogares o empresas.
+            p.mb-0 <B>Ejemplo de producto verde:</B> panel solar fotovoltaico para autoconsumo.
+            p.mb-0 <B>Ejemplo de servicio verde:</B> instalación y mantenimiento de sistemas de energía renovable.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_5/img_15.png', class="img-fluid")
 
     .bg_img_11.mb-0
       
