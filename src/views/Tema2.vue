@@ -285,6 +285,12 @@
 =======
       .col-12.col-lg-9
       
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 </template>
 
