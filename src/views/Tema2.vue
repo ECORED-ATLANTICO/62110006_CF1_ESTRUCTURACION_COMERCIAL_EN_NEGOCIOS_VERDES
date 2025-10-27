@@ -109,7 +109,7 @@
       .h2(data-aos="fade-right") 2.3 Métodos
     .mb-3
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-start.mb-5
       .col-8.col-lg-3.mb-lg-0.mb-3(data-aos="zoom-in-right")
         figure
           img(src="@/assets/curso/temas/tema_2/img_12.png", class="img-fluid")
@@ -252,6 +252,7 @@
       .col-6.col-lg-3.mb-lg-0.mb-3 
         figure
           img(src='@/assets/curso/temas/tema_2/img_24.png', class="img-fluid")
+<<<<<<< Updated upstream
       .col-12.col-lg-7
         .crd--Horizontal.crd__acento-contenido-5.mb-lg-5.mb-3
           .row.align-items-center
@@ -281,6 +282,10 @@
                 img(src="@/assets/curso/temas/tema_2/img_28.svg", alt="Control químico" class="img-fluid")
             .col
               p.mb-0 El aumento del acceso a información confiable fortalece la conciencia y educación ambiental.
+=======
+      .col-12.col-lg-9
+      
+>>>>>>> Stashed changes
 </template>
 
 <script>
