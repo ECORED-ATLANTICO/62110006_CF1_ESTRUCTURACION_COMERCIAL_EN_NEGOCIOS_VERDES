@@ -579,62 +579,211 @@ figcaption
 
 
 // Estilos para el componente ImagenInfografica
-.img-infografica.color-acento-contenido .img-infografica__item__numero, .img-infografica-b.color-acento-contenido .img-infografica__item__numero
-  color: $white
-.img-infografica__item__numero, .img-infografica-b__item__numero
+figure.infografia-figure-container
+  position: relative
+  margin: 0
+  img
+    position: relative
+    z-index: 1
+
+// Estilos para el punto de calor (Hotspot)
+// ----------------------------------------
+figure.infografia-figure-container
+  position: relative
+  margin: 0
+  img
+    position: relative
+    z-index: 1
+
+// Estilos para el punto de calor (Hotspot)
+// ----------------------------------------
+.punto-info
+  position: absolute
+  z-index: 40 // <-- ALTO (encima de la tarjeta)
+  .punto-numero
+    color: $white
+    width: 45px
+    height: 45px
+    font-size: 1.2rem
+    font-weight: 700
+    border-radius: 50%
+    border-width: 4px
+    border-style: solid
+    border-color: $color-acento-contenido-20
+    display: grid
+    place-items: center
+    cursor: pointer
+    transition: all 0.3s ease
+    background-color: $color-acento-contenido
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2)
+    &:hover
+      transform: scale(1.2)
+
+// Contenedor de las tarjetas de información
+// -----------------------------------------
+figure.infografia-figure-container
+  position: relative
+  margin: 0
+  img
+    position: relative
+    z-index: 1
+
+// Estilos para el punto de calor (Hotspot)
+// ----------------------------------------
+.punto-info
+  position: absolute
+  z-index: 20 // <-- ¡¡DEFECTO BAJO!! (Detrás de la tarjeta)
+  .punto-numero
+    color: $white
+    width: 45px
+    height: 45px
+    font-size: 1.2rem
+    font-weight: 700
+    border-radius: 50%
+    border-width: 4px
+    border-style: solid
+    border-color: $color-acento-contenido-20
+    display: grid
+    place-items: center
+    cursor: pointer
+    transition: all 0.3s ease
+    background-color: $color-acento-contenido
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2)
+    &:hover
+      transform: scale(1.2)
+
+// Contenedor de las tarjetas de información
+// -----------------------------------------
+.info-cards-container
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 30 // <-- ¡¡DEFECTO ALTO!! (Encima de los números inactivos)
+  pointer-events: none
+
+// Estilo de las tarjetas de información individuales
+// -------------------------------------------------
+.info-card
+  position: absolute
+  display: none
+  flex-direction: column
+  width: 350px
+  background: $white
+  border-radius: 12px
+  padding: 1.5rem
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1)
+  pointer-events: auto
+
+  .card-content
+    p
+      color: $color-sistema-texto
+      font-size: 0.9rem
+      line-height: 1.6
+      margin: 0
+
+  // --- POSICIÓN DE CADA TARJETA ---
+  // (Ajusta esto para cada tarjeta)
+  
+  &[data-card='1']
+    top: 35%
+    left: 15%
+    transform: translate(50px, -50%)
+  &[data-card='2']
+    top: 35%
+    left: 30%
+    transform: translate(50px, -50%)
+  &[data-card='3']
+    top: 35%
+    left: 48%
+    transform: translate(50px, -50%)
+  &[data-card='4']
+    top: 35%
+    left: 65%
+    transform: translate(-105%, -50%)
+  &[data-card='5']
+    top: 35%
     left: 85%
-    top: 85%
-    font-size: 1.5rem
-.img-infografica.color-acento-contenido .img-infografica__item__dot:before, .img-infografica.color-acento-contenido .img-infografica__item__dot:after, .img-infografica.color-acento-contenido .img-infografica-b__item__dot:before, .img-infografica.color-acento-contenido .img-infografica-b__item__dot:after, .img-infografica-b.color-acento-contenido .img-infografica__item__dot:before, .img-infografica-b.color-acento-contenido .img-infografica__item__dot:after, .img-infografica-b.color-acento-contenido .img-infografica-b__item__dot:before, .img-infografica-b.color-acento-contenido .img-infografica-b__item__dot:after
-  background-color: $color-acento-contenido
-  border-width: 4px 
-  border-style: solid 
-  border-color: $color-acento-contenido-20
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2)
-  border-radius: 50% 
-  width: 45px 
-  height: 45px 
+    transform: translate(-105%, -50%)
+  &[data-card='6']
+    top: 60%
+    left: 15%
+    transform: translate(50px, -50%)
+  &[data-card='7']
+    top: 60%
+    left: 30%
+    transform: translate(50px, -50%)
+  &[data-card='8']
+    top: 60%
+    left: 48%
+    transform: translate(50px, -50%)
+  &[data-card='9']
+    top: 60%
+    left: 65%
+    transform: translate(-105%, -50%)
+  &[data-card='10']
+    top: 60%
+    left: 85%
+    transform: translate(-105%, -50%)
 
-$desktop-coords: (15%, 35%), (30%, 35%), (48%, 35%), (65%, 35%), (85%, 35%), (15%, 60%), (30%, 60%), (48%, 60%), (65%, 60%), (85%, 60%)
 
-// 2. Define tus coordenadas de MÓVIL
-//    (!! CAMBIA ESTO por tus coordenadas reales de móvil !!)
-$mobile-coords: (10%, 20%), (25%, 25%), (40%, 20%), (55%, 25%), (70%, 20%), (10%, 50%), (25%, 55%), (40%, 50%), (55%, 55%), (70%, 80%) // <-- EJEMPLOS
-
-// 3. Define el punto de quiebre (lg = 992px)
-$breakpoint-lg: 992px
-
-// 4. Lógica de SASS (No toques esto)
-
-// --- VISTA MÓVIL (por defecto) ---
-// Ocultamos todos los puntos de ESCRITORIO
-@each $coords in $desktop-coords
-  $x: nth($coords, 1)
-  $y: nth($coords, 2)
-  // Selecciona el CÍRCULO y la TARJETA
-  .img-infografica_item[style*="left: #{$x}"][style*="top: #{$y}"],
-  .img-infografica_card[style*="left: #{$x}"][style*="top: #{$y}"]
-    display: none !important
-
-// --- VISTA ESCRITORIO (cuando la pantalla es > 992px) ---
-@media (min-width: $breakpoint-lg)
-
-  // Mostramos los de ESCRITORIO
-  @each $coords in $desktop-coords
-    $x: nth($coords, 1)
-    $y: nth($coords, 2)
-    .img-infografica_item[style*="left: #{$x}"][style*="top: #{$y}"],
-    .img-infografica_card[style*="left: #{$x}"][style*="top: #{$y}"]
-      display: block !important
-
-  // Ocultamos los de MÓVIL
-  @each $coords in $mobile-coords
-    $x: nth($coords, 1)
-    $y: nth($coords, 2)
-    .img-infografica_item[style*="left: #{$x}"][style*="top: #{$y}"],
-    .img-infografica_card[style*="left: #{$x}"][style*="top: #{$y}"]
-      display: none !important
-
+// Lógica de Clic: Bucle para 10 puntos
+// -----------------------------------------------------------
+@for $i from 1 through 10
+  #infografia-punto-#{$i}:checked
+    
+    // --- ¡¡LÓGICA DE Z-INDEX!! ---
+    // Sube el z-index del label ACTIVO
+    & ~ figure.infografia-figure-container label[for='infografia-punto-#{$i}']
+      z-index: 40 !important // <-- ¡¡EL NÚMERO ACTIVO SE PONE ENCIMA!!
+      .punto-numero
+        transform: scale(1.2) // (y se agranda)
+      
+    // Muestra la tarjeta ACTIVA
+    & ~ figure.infografia-figure-container .info-card[data-card='#{$i}']
+      display: flex
+       
+// Media queries para diseño responsivo
+// -----------------------------------
+@media (max-width: 768px)
+  // Mueve los PUNTOS
+  label.punto-info
+    &[for='infografia-punto-1']
+      top: 10% !important
+      left: 25% !important
+    // ... (tus otros 9 media queries para labels) ...
+    &[for='infografia-punto-10']
+      top: 78% !important
+      left: 65% !important
+      
+  // Mueve las TARJETAS
+  .info-card
+    width: 80% !important
+    left: 10% !important
+    transform: none !important
+    
+    // (Ajusta el 'top' para que no se pisen)
+    &[data-card='1']
+      top: 15% !important
+    &[data-card='2']
+      top: 15% !important
+    &[data-card='3']
+      top: 32% !important
+    &[data-card='4']
+      top: 32% !important
+    &[data-card='5']
+      top: 49% !important
+    &[data-card='6']
+      top: 49% !important
+    &[data-card='7']
+      top: 66% !important
+    &[data-card='8']
+      top: 66% !important
+    &[data-card='9']
+      top: 83% !important
+    &[data-card='10']
+      top: 83% !important   
 //crd--Horizontal
 
 .crd--Horizontal
@@ -697,7 +846,7 @@ $breakpoint-lg: 992px
 
 
 // TabsA 
-.tabs-a.mb-0.tarjeta-tabs-a.color-primario-10
+.tabs-a.mb-0.tarjeta-tabs-a.color-acento-botones.custom-1
   .row
     align-items: stretch !important
     justify-content: center !important
@@ -708,8 +857,8 @@ $breakpoint-lg: 992px
       flex-direction: column
 
       @media (min-width: 1200px)
-        flex: 0 0 55% !important
-        max-width: 55% !important
+        flex: 0 0 30% !important
+        max-width: 30% !important
       
       @media (max-width: 991px)
         flex: 0 0 100% !important
@@ -720,14 +869,75 @@ $breakpoint-lg: 992px
       display: flex !important
       
       @media (min-width: 1200px)
-        flex: 0 0 45% !important
-        max-width: 45% !important
+        flex: 0 0 70% !important
+        max-width: 70% !important
         
       @media (max-width: 991px)
         flex: 0 0 100% !important
         max-width: 100% !important
 
-.tabs-a.mb-5.tarjeta-tabs-a.color-primario-10 .col-sm-6.col-lg-12.mb-3
+.tabs-a.mb-0.tarjeta-tabs-a.color-acento-botones.custom-2
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 42% !important
+        max-width: 42% !important
+      
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex !important
+      
+      @media (min-width: 1200px)
+        flex: 0 0 58% !important
+        max-width: 58% !important
+        
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a.mb-0.tarjeta-tabs-a.color-acento-botones.custom-3
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 35% !important
+        max-width: 35% !important
+      
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex !important
+      
+      @media (min-width: 1200px)
+        flex: 0 0 65% !important
+        max-width: 65% !important
+        
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+
+.tabs-a.mb-5.tarjeta-tabs-a.color-acento-botones .col-sm-6.col-lg-12.mb-3
   .tabs-a__tab
     padding: 18px 22px !important
     font-size: 0.95rem !important

@@ -146,8 +146,8 @@
             img(src="@/assets/curso/temas/tema_5/img_16.png", class="img-fluid")
         .col-12.col-lg-8(data-aos="zoom-in-right")
           p.mb-3 Los productos y servicios verdes se distinguen por una serie de atributos que los hacen especialmente valiosos dentro del marco del desarrollo sostenible. Estas características permiten no solo reducir el impacto ambiental, sino también promover prácticas responsables y generar confianza en los consumidores.
-          TabsA.mb-0.tarjeta-tabs-a.color-acento-botones
-            .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Sostenibilidad ambiental")
+          TabsA.mb-0.tarjeta-tabs-a.color-acento-botones.custom-2
+            .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Sostenibilidad ambiental")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                   h5.mb-3 Sostenibilidad ambiental 
@@ -155,7 +155,7 @@
                 .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_17.svg', class="img-fluid")(data-aos="fade-up")
-            .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Ecoeficiencia")
+            .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Ecoeficiencia")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                   h5.mb-3 Ecoeficiencia
@@ -163,7 +163,7 @@
                 .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_18.svg', class="img-fluid")(data-aos="fade-up")
-            .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Innovación ambiental")
+            .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Innovación ambiental")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                   h5.mb-3 Innovación ambiental
@@ -171,7 +171,7 @@
                 .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_19.svg', class="img-fluid")(data-aos="fade-up")
-            .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Certificación y cumplimiento normativo")
+            .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Certificación y cumplimiento normativo")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                   h5.mb-3 Certificación y cumplimiento normativo
@@ -179,7 +179,7 @@
                 .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_20.svg', class="img-fluid")(data-aos="fade-up")
-            .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Transparencia")
+            .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Transparencia")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                   h5.mb-3 Transparencia
@@ -187,7 +187,7 @@
                 .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_21.svg', class="img-fluid")(data-aos="fade-up")
-            .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Responsabilidad social")
+            .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Responsabilidad social")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                   h5.mb-3 Responsabilidad social

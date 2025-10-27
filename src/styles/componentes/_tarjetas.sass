@@ -55,7 +55,14 @@
     .slyder-a__bullets__item
       background-color: lighten($color-primario, 15%)
       border: 1px solid lighten($color-primario, 15%)
-
+  
+  &--fondo-infografia
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    &--1
+      background-image: url('../assets/curso/temas/tema_1/img_11.svg')
+      @media (max-width: 768px)
+        background-image: url('../assets/curso/temas/tema_1/img_12.svg')
   &--1
     content: url('../assets/curso/temas/tema_2/img_17.svg')
     margin: 0 auto 

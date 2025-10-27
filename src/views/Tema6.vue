@@ -101,7 +101,7 @@
             img(src="@/assets/curso/temas/tema_6/img_6.png", class="img-fluid").h-100
         .col-12.col-lg-8(data-aos="zoom-in-right")
           p.mb-3 Para que el modelo TPDP (Producto – Diferenciador – Beneficio para el cliente) funcione de manera efectiva en negocios verdes, es necesario que esté alineado con los principios de sostenibilidad y conciencia ambiental. No se trata solo de vender, sino de generar valor con propósito. A continuación, se presentan algunas recomendaciones clave para aplicar este enfoque de forma coherente y exitosa en el contexto de los negocios verdes. 
-          TabsA.mb-0.tarjeta-tabs-a.color-acento-botones
+          TabsA.mb-0.tarjeta-tabs-a.color-acento-botones.custom-3
             .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Conocer al cliente verde")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0

@@ -92,8 +92,8 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10(data-aos="zoom-in-right")  
-        TabsA.mb-0.tarjeta-tabs-a.color-acento-botones
-          .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Encuestas de opinión")
+        TabsA.mb-0.tarjeta-tabs-a.color-acento-botones.custom-1
+          .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Encuestas de opinión")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 h5.mb-3 Encuestas de opinión 
@@ -102,7 +102,7 @@
               .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_3/img_7.svg', class="img-fluid")(data-aos="fade-up")
-          .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Análisis de ventas")
+          .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Análisis de ventas")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 h5.mb-3 Análisis de ventas
@@ -111,7 +111,7 @@
               .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_3/img_8.svg', class="img-fluid")(data-aos="fade-up")
-          .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Monitoreo digital")
+          .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Monitoreo digital")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 h5.mb-3 Monitoreo digital
@@ -120,7 +120,7 @@
               .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_3/img_9.svg', class="img-fluid")(data-aos="fade-up")
-          .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Evaluación de imagen corporativa")
+          .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Evaluación de imagen corporativa")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 h5.mb-3 Evaluación de imagen corporativa
