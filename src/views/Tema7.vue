@@ -66,6 +66,7 @@
       .h2(data-aos="fade-right") 7.3.	Clasificación
       .mb-3
 
+
     .tarjeta.color-acento-contenido-5.rounded-0.overflow-hidden.mb-5(data-aos="fade-right")
       .row.g-0.align-items-stretch
         .col-12.col-lg-5.mb-lg-0.mb-3
