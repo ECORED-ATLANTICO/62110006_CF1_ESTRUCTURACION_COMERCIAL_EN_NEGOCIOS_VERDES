@@ -47,8 +47,8 @@
         .cita-decorada
           blockquote.cita-decorada__caja.cita-decorada__caja--fondo-1.p-4
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-10
-                p.cita-decorada__texto Además del marco normativo nacional, como la Política Nacional de Producción y Consumo Sostenible (PNPCS) y la Resolución 196 de 2018, los negocios verdes en Colombia también pueden apoyarse en estándares internacionales de gestión ambiental, como la norma ISO 14001. Esta norma, reconocida a nivel mundial, proporciona una estructura para que las organizaciones identifiquen, gestionen y mejoren continuamente su desempeño ambiental, lo cual es coherente con los principios de los negocios verdes.
+              .col-10.col-lg-10
+                p.cita-decorada__texto.mb-0 Además del marco normativo nacional, como la Política Nacional de Producción y Consumo Sostenible (PNPCS) y la Resolución 196 de 2018, los negocios verdes en Colombia también pueden apoyarse en estándares internacionales de gestión ambiental, como la norma ISO 14001. Esta norma, reconocida a nivel mundial, proporciona una estructura para que las organizaciones identifiquen, gestionen y mejoren continuamente su desempeño ambiental, lo cual es coherente con los principios de los negocios verdes.
       .col-8.col-lg-2.order-1.order-lg-2.mb-lg-0.mb-3(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/temas/tema_1/img_5.png', class="img-fluid")

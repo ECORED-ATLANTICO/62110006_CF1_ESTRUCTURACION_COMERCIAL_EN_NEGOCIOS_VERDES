@@ -559,12 +559,9 @@ figcaption
 .tarjeta--slider__title
   background-color: transparent !important
   background: none !important
-  
-  // Forzar que NO tenga el bg-color-secundario
   &.bg-color-secundario
     background-color: transparent !important
     background: none !important
-  
   span.texto-resaltado
     background-color: $color-secundario
     padding: 0.4rem 1rem
@@ -598,6 +595,45 @@ figcaption
   width: 45px 
   height: 45px 
 
+$desktop-coords: (15%, 35%), (30%, 35%), (48%, 35%), (65%, 35%), (85%, 35%), (15%, 60%), (30%, 60%), (48%, 60%), (65%, 60%), (85%, 60%)
+
+// 2. Define tus coordenadas de MÓVIL
+//    (!! CAMBIA ESTO por tus coordenadas reales de móvil !!)
+$mobile-coords: (10%, 20%), (25%, 25%), (40%, 20%), (55%, 25%), (70%, 20%), (10%, 50%), (25%, 55%), (40%, 50%), (55%, 55%), (70%, 80%) // <-- EJEMPLOS
+
+// 3. Define el punto de quiebre (lg = 992px)
+$breakpoint-lg: 992px
+
+// 4. Lógica de SASS (No toques esto)
+
+// --- VISTA MÓVIL (por defecto) ---
+// Ocultamos todos los puntos de ESCRITORIO
+@each $coords in $desktop-coords
+  $x: nth($coords, 1)
+  $y: nth($coords, 2)
+  // Selecciona el CÍRCULO y la TARJETA
+  .img-infografica_item[style*="left: #{$x}"][style*="top: #{$y}"],
+  .img-infografica_card[style*="left: #{$x}"][style*="top: #{$y}"]
+    display: none !important
+
+// --- VISTA ESCRITORIO (cuando la pantalla es > 992px) ---
+@media (min-width: $breakpoint-lg)
+
+  // Mostramos los de ESCRITORIO
+  @each $coords in $desktop-coords
+    $x: nth($coords, 1)
+    $y: nth($coords, 2)
+    .img-infografica_item[style*="left: #{$x}"][style*="top: #{$y}"],
+    .img-infografica_card[style*="left: #{$x}"][style*="top: #{$y}"]
+      display: block !important
+
+  // Ocultamos los de MÓVIL
+  @each $coords in $mobile-coords
+    $x: nth($coords, 1)
+    $y: nth($coords, 2)
+    .img-infografica_item[style*="left: #{$x}"][style*="top: #{$y}"],
+    .img-infografica_card[style*="left: #{$x}"][style*="top: #{$y}"]
+      display: none !important
 
 //crd--Horizontal
 
@@ -657,3 +693,50 @@ figcaption
   &__acento-contenido-5
     &::before
       background-color: $color-acento-contenido-5 !important
+
+
+
+// TabsA 
+.tabs-a.mb-0.tarjeta-tabs-a.color-primario-10
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 55% !important
+        max-width: 55% !important
+      
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex !important
+      
+      @media (min-width: 1200px)
+        flex: 0 0 45% !important
+        max-width: 45% !important
+        
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a.mb-5.tarjeta-tabs-a.color-primario-10 .col-sm-6.col-lg-12.mb-3
+  .tabs-a__tab
+    padding: 18px 22px !important
+    font-size: 0.95rem !important
+    min-height: 60px !important
+    flex-grow: 1
+
+.tabs-a .tarjeta-tabs-a__tarjeta
+  flex-grow: 1 !important
+  width: 100%
+  display: flex !important
+  align-items: center !important
+  justify-content: center !important
