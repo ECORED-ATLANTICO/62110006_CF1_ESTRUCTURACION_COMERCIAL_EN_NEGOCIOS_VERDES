@@ -102,14 +102,6 @@
         #t_8_3.titulo-segundo.color-acento-contenido
           .h2(data-aos="fade-right") 8.3.	Aplicabilidad
         .mb-3
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      
-      
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
 </template>
 
