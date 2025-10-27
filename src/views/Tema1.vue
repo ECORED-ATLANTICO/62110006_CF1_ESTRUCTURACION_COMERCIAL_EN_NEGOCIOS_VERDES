@@ -63,7 +63,7 @@
     separador
 
     #t_1_2.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 1.2.	Oportunidades
+      .h2(data-aos="fade-right") 1.2 Oportunidades
     .mb-3
 
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
@@ -137,7 +137,6 @@
         .col-12.col-lg-8(data-aos="zoom-in-right")
           p.mb-3 Las tendencias del mercado verde o sostenible reflejan una transformación profunda en la forma en que las empresas y los consumidores abordan la sostenibilidad. A continuación, se presentan las principales tendencias que están moldeando este panorama:
           p.mb-0 Principales tendencias del mercado verde o sostenible:
-
 </template>
 
 <script>

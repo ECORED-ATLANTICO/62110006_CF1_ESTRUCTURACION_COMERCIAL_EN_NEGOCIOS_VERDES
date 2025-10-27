@@ -24,7 +24,7 @@
       .row.justify-content-center.align-items-center.mb-0
         .col-12.col-lg-10 
           #t_2_1.titulo-segundo.color-acento-contenido
-            .h2(data-aos="fade-right") 2.1. Concepto
+            .h2(data-aos="fade-right") 2.1 Concepto
           .mb-3
 
       .row.justify-content-center.align-items-center.mb-0
@@ -43,7 +43,7 @@
       .row.justify-content-center.align-items-center.mb-0
         .col-12.col-lg-10 
           #t_2_2.titulo-segundo.color-acento-contenido
-            .h2(data-aos="fade-right") 2.2. Clases
+            .h2(data-aos="fade-right") 2.2 Clases
           .mb-3
         .col-12.col-lg-10 
           p.mb-3 La demanda verde no es homogénea; varía según el grado de conocimiento, compromiso y comportamiento del consumidor frente a la sostenibilidad. Se pueden identificar varias clases:
@@ -106,7 +106,7 @@
     separador
 
     #t_2_3.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 2.3. Métodos
+      .h2(data-aos="fade-right") 2.3 Métodos
     .mb-3
 
     .row.justify-content-center.align-items-center.mb-5
@@ -117,13 +117,13 @@
         p.mb-3 Para evaluar el alcance y evolución de la demanda verde, se emplean diversas metodologías:
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-20")
           div(titulo="Encuestas de opinión y mercado")
-            p.mb-0 instrumentos directos que recopilan información sobre percepciones, actitudes y comportamientos de los consumidores en relación con productos verdes. Estas encuestas ayudan a identificar barreras y motivadores de compra sostenible.
+            p.px-5.mb-0 instrumentos directos que recopilan información sobre percepciones, actitudes y comportamientos de los consumidores en relación con productos verdes. Estas encuestas ayudan a identificar barreras y motivadores de compra sostenible.
           div(titulo="Análisis de ventas y cuotas de mercado")
-            p.mb-0 seguimiento cuantitativo de productos con certificación ambiental o atributos sostenibles para determinar la participación y crecimiento en el mercado.
+            p.px-5.mb-0 seguimiento cuantitativo de productos con certificación ambiental o atributos sostenibles para determinar la participación y crecimiento en el mercado.
           div(titulo="Monitoreo digital")
-            p.mb-0 uso de herramientas de análisis de datos y tendencias online para detectar patrones en búsquedas, opiniones y consumo de productos verdes, aprovechando big data e inteligencia artificial.
+            p.px-5.mb-0 uso de herramientas de análisis de datos y tendencias online para detectar patrones en búsquedas, opiniones y consumo de productos verdes, aprovechando big data e inteligencia artificial.
           div(titulo="Evaluación de imagen y reputación corporativa")
-            p.mb-0 análisis del posicionamiento de marcas respecto a sostenibilidad, mediante estudios de percepción y confianza del consumidor.
+            p.px-5.mb-0 análisis del posicionamiento de marcas respecto a sostenibilidad, mediante estudios de percepción y confianza del consumidor.
         p.mb-0 Estos métodos combinados permiten obtener una visión integral de la demanda verde, facilitando la toma de decisiones estratégicas para impulsar su crecimiento (Peattie, 1995).
     
     .row.justify-content-center.align-items-center
@@ -140,7 +140,7 @@
     separador
 
     #t_2_4.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 2.4. Efectos
+      .h2(data-aos="fade-right") 2.4 Efectos
     .mb-3
 
     .tarjeta.color-secundario-10.rounded-0.overflow-hidden.mb-5(data-aos="fade-right")
@@ -184,7 +184,7 @@
 
     .bg_img_3.mb-3
       #t_2_5.titulo-segundo.color-acento-contenido
-        .h2(data-aos="fade-right") 2.5. Tendencias
+        .h2(data-aos="fade-right") 2.5 Tendencias
       .mb-3
 
       p.mb-5 Actualmente, la demanda verde está marcada por varias tendencias clave que muestran una evolución en las preferencias y comportamientos de los consumidores:
@@ -194,21 +194,25 @@
           .custom-slider.p-2.p-sm-3.mb-0(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6")
               .tarjeta.tarjeta--blanca-1.h-95
-                .tarjeta--1
-                .tarjeta--slider__title.mb-3.bg-color-secundario.text-center.fw-bold.rounded-3.p-2 Consumo consciente y transparente
+                .tarjeta--1.mb-3
+                .tarjeta--slider__title.mb-3.text-center.fw-bold.p-2
+                  span.texto-resaltado Consumo consciente y transparente
                 .tarjeta--slider__content.text-center.mb-3 los consumidores exigen mayor transparencia sobre el origen, producción y ciclo de vida de los productos, favoreciendo aquellos con certificaciones reconocidas y prácticas éticas.
               .tarjeta.tarjeta--blanca-1.h-95
-                .tarjeta--2
-                .tarjeta--slider__title.mb-3.bg-color-secundario.text-center.fw-bold.fst-italic 
-                .tarjeta--slider__content.text-center 
+                .tarjeta--2.mb-3
+                .tarjeta--slider__title.mb-3.text-center.fw-bold.p-2
+                  span.texto-resaltado Digitalización como herramienta educativa
+                .tarjeta--slider__content.text-center plataformas digitales y redes sociales juegan un papel fundamental en informar y sensibilizar sobre temas ambientales, influyendo directamente en las decisiones de compra.
               .tarjeta.tarjeta--blanca-1.h-95
-                .tarjeta--3
-                .tarjeta--slider__title.mb-3.bg-color-secundario.text-center.fw-bold.fst-italic 
-                .tarjeta--slider__content.text-center 
+                .tarjeta--3.mb-3
+                .tarjeta--slider__title.mb-3.text-center.fw-bold.p-2
+                  span.texto-resaltado Preferencia por modelos de economía circular
+                .tarjeta--slider__content.text-center hay un interés creciente en productos que permiten su reutilización, reciclaje o reducción de residuos, extendiendo su ciclo útil y minimizando el desperdicio.
               .tarjeta.tarjeta--blanca-1.h-95
-                .tarjeta--4
-                .tarjeta--slider__title.mb-3.bg-color-secundario.text-center.fw-bold.fst-italic 
-                .tarjeta--slider__content.text-center 
+                .tarjeta--4.mb-3
+                .tarjeta--slider__title.mb-3.text-center.fw-bold.p-2
+                  span.texto-resaltado Crecimiento de servicios sostenibles
+                .tarjeta--slider__content.text-center más allá de productos, sectores como el turismo ecológico, la moda ética y las finanzas verdes experimentan un aumento notable, diversificando la oferta sostenible.
         .col-8.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/temas/tema_2/img_21.png', class="img-fluid")
@@ -230,10 +234,10 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10   
         #t_2_6.titulo-segundo.color-acento-contenido
-          .h2(data-aos="fade-right") 2.6. Proyección
+          .h2(data-aos="fade-right") 2.6 Proyección
         .mb-3
     
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-6.mb-lg-0.mb-3
         .bloque-texto-b.color-secundario-10.p-4
           .bloque-texto-b__texto
@@ -244,6 +248,11 @@
         p.mb-3 Este crecimiento implica grandes oportunidades económicas, sociales y ambientales para las próximas generaciones.
         p.mb-0 Se proyecta que la demanda verde tendrá un crecimiento exponencial en las próximas décadas, sustentado en diversos factores:
     
+    .row.justify-content-center.align-items-center.mb-3
+      .col-6.col-lg-3.mb-lg-0.mb-3 
+        figure
+          img(src='@/assets/curso/temas/tema_2/img_24.png', class="img-fluid")
+      .col-12.col-lg-9
 </template>
 
 <script>
