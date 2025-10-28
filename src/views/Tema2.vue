@@ -98,8 +98,8 @@
           h5 Figura 1.
           span Clasificación de la demanda sostenible
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_2/img_10.svg', class="img-fluid d-none d-lg-block mb-3", class="img-fluid")
-          img(src='@/assets/curso/temas/tema_2/img_11.svg', class="img-fluid d-block d-lg-none mb-3", class="img-fluid")
+          img(src='@/assets/curso/temas/tema_2/img_10.svg', class="img-fluid d-none d-lg-block mb-3")
+          img(src='@/assets/curso/temas/tema_2/img_11.svg', class="img-fluid d-block d-lg-none mb-3")
         figcaption(data-aos="zoom-in-right") 
           <b>Fuente:</b> SENA, 2025.
 
@@ -132,8 +132,8 @@
           h5 Figura 2.
           span Métodos de evaluación y seguimiento a la demanda.
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_2/img_13.svg', class="img-fluid d-none d-lg-block mb-3", class="img-fluid")
-          img(src='@/assets/curso/temas/tema_2/img_14.svg', class="img-fluid d-block d-lg-none mb-3", class="img-fluid")
+          img(src='@/assets/curso/temas/tema_2/img_13.svg', class="img-fluid d-none d-lg-block mb-3")
+          img(src='@/assets/curso/temas/tema_2/img_14.svg', class="img-fluid d-block d-lg-none mb-3")
         figcaption(data-aos="zoom-in-right") 
           <b>Fuente:</b> SENA, 2025.
 

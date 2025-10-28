@@ -104,38 +104,84 @@
           TabsA.mb-0.tarjeta-tabs-a.color-acento-botones.custom-3
             .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Conocer al cliente verde")
               .row.justify-content-center.align-items-center.mb-0
-                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                .col-12.col-lg-6.mb-4.mb-lg-0
                   p.mb-0 identificar qué valores y causas sociales o ambientales valora el público objetivo.
-                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+                .col-8.col-lg-4.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_6/img_7.svg', class="img-fluid")(data-aos="fade-up")
             .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Construir una propuesta única")
               .row.justify-content-center.align-items-center.mb-0
-                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                .col-12.col-lg-6.mb-4.mb-lg-0
                   p.mb-0 combinar calidad, sostenibilidad y experiencia para diferenciar el producto.
-                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+                .col-8.col-lg-4.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_6/img_8.svg', class="img-fluid")(data-aos="fade-up")
             .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Comunicar con transparencia")
               .row.justify-content-center.align-items-center.mb-0
-                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                .col-12.col-lg-6.mb-4.mb-lg-0
                   p.mb-0 mostrar claramente los beneficios ambientales y sociales, con evidencia cuando sea posible (certificaciones, etiquetas, trazabilidad).
-                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+                .col-8.col-lg-4.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_6/img_9.svg', class="img-fluid")(data-aos="fade-up")
             .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Incluir elementos de educación")
               .row.justify-content-center.align-items-center.mb-0
-                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                .col-12.col-lg-6.mb-4.mb-lg-0
                   p.mb-0 aportar contenido que forme conciencia ecológica en el consumidor, como guías de reciclaje o información sobre impactos positivos del producto.
-                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+                .col-8.col-lg-4.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_6/img_10.svg', class="img-fluid")(data-aos="fade-up")
+    .row.justify-content-center.align-items-center.mb-0
+      .col-12.col-lg-10 
+        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+          h5 Figura 7.
+          span Aplicabilidad TPDP en los productos y servicios verdes
+        
+        .custom-infografia-container
+          input#infografia-punto-0.d-none(type="radio" name="infografia-puntos")
+          input#infografia-punto-1.d-none(type="radio" name="infografia-puntos")
+          input#infografia-punto-2.d-none(type="radio" name="infografia-puntos")
+          input#infografia-punto-3.d-none(type="radio" name="infografia-puntos")
+          input#infografia-punto-4.d-none(type="radio" name="infografia-puntos")
 
+          figure.infografia-figure-container
+            .info-cards-container.mb-3
+              .info-card(data-card="1")
+                .card-content.px-3
+                  .h5.mb-2 Cliente verde
+                  p.mb-0 Identificar valores ambientales del consumidor.
 
+              .info-card(data-card="2")
+                .card-content.px-3
+                  .h5.mb-2 Propuesta única
+                  p.mb-0 Aquí va la descripción detallada de la Propuesta Única para el Punto 2.
+
+              .info-card(data-card="3")
+                .card-content.px-3
+                  .h5.mb-2 Comunicación transparente
+                  p.mb-0 Contenido del punto 3.
+
+              .info-card(data-card="4")
+                .card-content.px-3
+                  .h5.mb-2 Educación ecológica
+                  p.mb-0 Contenido del punto 4.
+
+            label.punto-info(for="infografia-punto-1" style="top: 50%; left: 15%;")
+              .punto-numero 1
+            label.punto-info(for="infografia-punto-2" style="top: 50%; left: 35%;")
+              .punto-numero 2 
+            label.punto-info(for="infografia-punto-3" style="top: 50%; left: 55%;")
+              .punto-numero 3
+            label.punto-info(for="infografia-punto-4" style="top: 50%; left: 75%;")
+              .punto-numero 4
+            label.infografia-figure-container__bg-close(for="infografia-punto-0")
+
+            img(src='@/assets/curso/temas/tema_6/img_11.svg', class="img-fluid d-none d-lg-block mb-0")
+            img(src='@/assets/curso/temas/tema_6/img_12.svg', class="img-fluid d-block d-lg-none mb-0")
+    
     .row.justify-content-center.align-items-center.mb-3
       .col-1.col-lg-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/tema_6/img_12.png', class="cita-decorada__imagen-flotante-1")
+          img(src='@/assets/curso/temas/tema_6/img_13.png', class="cita-decorada__imagen-flotante-1")
       .col-12.col-lg-9.mb-lg-0.mb-3
         p.mb-3 A continuación, presentamos una tabla TPDP enfocada en negocios verdes, que ilustra cómo aplicar el valor agregado y el paquete de beneficios:
         h5.mb-0 Ejemplos de aplicabilidad de valor agregado en negocios verdes:

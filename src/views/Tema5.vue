@@ -149,50 +149,50 @@
           TabsA.mb-0.tarjeta-tabs-a.color-acento-botones.custom-2
             .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Sostenibilidad ambiental")
               .row.justify-content-center.align-items-center.mb-0
-                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                .col-12.col-lg-6.col-xxl-5.mb-4.mb-xl-0
                   h5.mb-3 Sostenibilidad ambiental 
                   p.mb-0 Se desarrollan utilizando procesos y materiales que respetan los ecosistemas y promueven la conservación de los recursos naturales a largo plazo.
-                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+                .col-8.col-lg-4.col-xxl-5.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_17.svg', class="img-fluid")(data-aos="fade-up")
             .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Ecoeficiencia")
               .row.justify-content-center.align-items-center.mb-0
-                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                .col-12.col-lg-5.mb-4.mb-lg-0
                   h5.mb-3 Ecoeficiencia
                   p.mb-0 optimizan el uso de insumos y energía para maximizar resultados con el menor impacto posible.
-                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+                .col-8.col-lg-5.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_18.svg', class="img-fluid")(data-aos="fade-up")
             .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Innovación ambiental")
               .row.justify-content-center.align-items-center.mb-0
-                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                .col-12.col-lg-5.mb-4.mb-lg-0
                   h5.mb-3 Innovación ambiental
                   p.mb-0 incorporan tecnologías limpias, procesos innovadores o materiales alternativos que minimizan la huella ecológica.
-                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+                .col-8.col-lg-5.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_19.svg', class="img-fluid")(data-aos="fade-up")
             .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Certificación y cumplimiento normativo")
               .row.justify-content-center.align-items-center.mb-0
-                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                .col-12.col-lg-5.mb-4.mb-lg-0
                   h5.mb-3 Certificación y cumplimiento normativo
                   p.mb-0 Generalmente cuentan con certificaciones oficiales (como FSC, ISO 14001, EU Ecolabel) que avalan su desempeño ambiental.
-                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+                .col-8.col-lg-5.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_20.svg', class="img-fluid")(data-aos="fade-up")
             .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Transparencia")
               .row.justify-content-center.align-items-center.mb-0
-                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                .col-12.col-lg-5.mb-4.mb-lg-0
                   h5.mb-3 Transparencia
                   p.mb-0 Proveen información clara y accesible sobre sus componentes, métodos de producción y posibles impactos.
-                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+                .col-8.col-lg-5.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_21.svg', class="img-fluid")(data-aos="fade-up")
             .tarjeta.color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Responsabilidad social")
               .row.justify-content-center.align-items-center.mb-0
-                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                .col-12.col-lg-5.mb-4.mb-lg-0
                   h5.mb-3 Responsabilidad social
                   p.mb-0 Consideran el bienestar de las comunidades involucradas y promueven prácticas éticas en toda su cadena de valor.
-                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+                .col-8.col-lg-5.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_22.svg', class="img-fluid")(data-aos="fade-up")
           
@@ -204,8 +204,8 @@
             h5 Figura 6.
             span Atributos de los productos y servicios verdes. 
           figure(data-aos="zoom-in-right")
-            img(src='@/assets/curso/temas/tema_5/img_23.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la figura se describe que los productos y servicios sostenible se destacan por: Respetar ecosistemas y conservar recursos. Usar insumos y energía eficientemente. Incorporar tecnologías limpias e innovadoras. Contar con certificaciones ambientales. Ser transparentes sobre su impacto. Fomentar el bienestar social y la ética.")
-            img(src='@/assets/curso/temas/tema_5/img_24.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la figura se describe que los productos y servicios sostenible se destacan por: Respetar ecosistemas y conservar recursos. Usar insumos y energía eficientemente. Incorporar tecnologías limpias e innovadoras. Contar con certificaciones ambientales. Ser transparentes sobre su impacto. Fomentar el bienestar social y la ética.")
+            img(src='@/assets/curso/temas/tema_5/img_23.svg', class="img-fluid d-none d-lg-block mb-3")
+            img(src='@/assets/curso/temas/tema_5/img_24.svg', class="img-fluid d-block d-lg-none mb-3")
           figcaption(data-aos="zoom-in-right") 
             <b>Fuente:</b> SENA, 2025.
 

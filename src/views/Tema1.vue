@@ -138,10 +138,11 @@
           p.mb-3 Las tendencias del mercado verde o sostenible reflejan una transformación profunda en la forma en que las empresas y los consumidores abordan la sostenibilidad. A continuación, se presentan las principales tendencias que están moldeando este panorama:
           p.mb-0 Principales tendencias del mercado verde o sostenible:
     
-      .row.justify-content-center.align-items-center.mb-0
-        .col-12.col-lg-10 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-10.mb-5
           .custom-infografia-container
-            input#infografia-punto-1.d-none(type="radio" name="infografia-puntos" checked)
+            input#infografia-punto-0.d-none(type="radio" name="infografia-puntos")
+            input#infografia-punto-1.d-none(type="radio" name="infografia-puntos")
             input#infografia-punto-2.d-none(type="radio" name="infografia-puntos")
             input#infografia-punto-3.d-none(type="radio" name="infografia-puntos")
             input#infografia-punto-4.d-none(type="radio" name="infografia-puntos")
@@ -153,48 +154,7 @@
             input#infografia-punto-10.d-none(type="radio" name="infografia-puntos")
 
             figure.infografia-figure-container
-              .info-cards-container.mb-3
-                .info-card(data-card="1")
-                  .card-content
-                    .h5.mb-2 Transparencia y lucha contra el greenwashing
-                    p.mb-0 Mayor exigencia de veracidad en las afirmaciones ambientales. Las empresas deben respaldar sus mensajes con datos verificables y estudios rigurosos.
-                .info-card(data-card="2")
-                  .card-content
-                    .h5.mb-2 Gestión responsable de la cadena de suministro
-                    p.mb-0 Evaluación y mitigación de riesgos sociales y ambientales en todas las etapas de la cadena productiva, impulsadas por nuevas normativas internacionales.
-                .info-card(data-card="3")
-                  .card-content
-                    .h5.mb-2 Aplicación de IA en sostenibilidad
-                    p.mb-0 Uso de tecnologías de inteligencia artificial para optimizar procesos, reducir el impacto ambiental y mejorar la trazabilidad y eficiencia en operaciones.
-                .info-card(data-card="4")
-                  .card-content
-                    .h5.mb-2 Economía circular y optimización de residuos
-                    p.mb-0 Adopción de modelos que promueven la reutilización, reciclaje y rediseño de productos para minimizar residuos y maximizar la eficiencia de recursos.
-                .info-card(data-card="5")
-                  .card-content
-                    .h5.mb-2 Digitalización y automatización sostenible
-                    p.mb-0 Implementación de tecnologías digitales para reducir el consumo de recursos, mejorar la eficiencia operativa y facilitar el cumplimiento de normativas.
-                .info-card(data-card="6")
-                  .card-content
-                    .h5.mb-2 Auge de la inversión y finanzas sostenibles
-                    p.mb-0 Creciente interés en inversiones que consideran criterios ambientales, sociales y de gobernanza (ESG), impulsando la financiación de proyectos sostenibles.
-                .info-card(data-card="7")
-                  .card-content
-                    .h5.mb-2 Revolución verde del mercado laboral
-                    p.mb-0 Aumento en la demanda de profesionales con habilidades en sostenibilidad, generando nuevas oportunidades laborales en sectores verdes.
-                .info-card(data-card="8")
-                  .card-content
-                    .h5.mb-2 Comercio electrónico sostenible
-                    p.mb-0 Desarrollo de prácticas de e-commerce que minimizan el impacto ambiental, como envíos eficientes y embalajes ecológicos.
-                .info-card(data-card="9")
-                  .card-content
-                    .h5.mb-2 Enfoque en la biodiversidad y capital natural
-                    p.mb-0 Integración de la conservación de la biodiversidad y la gestión del capital natural en las estrategias empresariales.
-                .info-card(data-card="10")
-                  .card-content
-                    .h5.mb-2 Regulaciones más estrictas y mayor transparencia
-                    p.mb-0 Implementación de normativas más rigurosas que exigen a las empresas una mayor transparencia y responsabilidad en sus prácticas sostenibles.
-
+              label.infografia-figure-container__bg-close(for="infografia-punto-0")
               label.punto-info(for="infografia-punto-1" style="top: 35%; left: 15%;")
                 .punto-numero 1
               label.punto-info(for="infografia-punto-2" style="top: 35%; left: 30%;")
@@ -215,10 +175,86 @@
                 .punto-numero 9
               label.punto-info(for="infografia-punto-10" style="top: 60%; left: 85%;")
                 .punto-numero 10
+                
+              .info-cards-container.mb-3
+                .info-card(data-card="1")
+                  .card-content.px-3
+                    .h5.mb-2 Transparencia y lucha contra el greenwashing
+                    p.mb-0 Mayor exigencia de veracidad en las afirmaciones ambientales. Las empresas deben respaldar sus mensajes con datos verificables y estudios rigurosos.
+                .info-card(data-card="2")
+                  .card-content.px-3
+                    .h5.mb-2 Gestión responsable de la cadena de suministro
+                    p.mb-0 Evaluación y mitigación de riesgos sociales y ambientales en todas las etapas de la cadena productiva, impulsadas por nuevas normativas internacionales.
+                .info-card(data-card="3")
+                  .card-content.px-3
+                    .h5.mb-2 Aplicación de IA en sostenibilidad
+                    p.mb-0 Uso de tecnologías de inteligencia artificial para optimizar procesos, reducir el impacto ambiental y mejorar la trazabilidad y eficiencia en operaciones.
+                .info-card(data-card="4")
+                  .card-content.px-3
+                    .h5.mb-2 Economía circular y optimización de residuos
+                    p.mb-0 Adopción de modelos que promueven la reutilización, reciclaje y rediseño de productos para minimizar residuos y maximizar la eficiencia de recursos.
+                .info-card(data-card="5")
+                  .card-content.px-3
+                    .h5.mb-2 Digitalización y automatización sostenible
+                    p.mb-0 Implementación de tecnologías digitales para reducir el consumo de recursos, mejorar la eficiencia operativa y facilitar el cumplimiento de normativas.
+                .info-card(data-card="6")
+                  .card-content.px-3
+                    .h5.mb-2 Auge de la inversión y finanzas sostenibles
+                    p.mb-0 Creciente interés en inversiones que consideran criterios ambientales, sociales y de gobernanza (ESG), impulsando la financiación de proyectos sostenibles.
+                .info-card(data-card="7")
+                  .card-content.px-3
+                    .h5.mb-2 Revolución verde del mercado laboral
+                    p.mb-0 Aumento en la demanda de profesionales con habilidades en sostenibilidad, generando nuevas oportunidades laborales en sectores verdes.
+                .info-card(data-card="8")
+                  .card-content.px-3
+                    .h5.mb-2 Comercio electrónico sostenible
+                    p.mb-0 Desarrollo de prácticas de e-commerce que minimizan el impacto ambiental, como envíos eficientes y embalajes ecológicos.
+                .info-card(data-card="9")
+                  .card-content.px-3
+                    .h5.mb-2 Enfoque en la biodiversidad y capital natural
+                    p.mb-0 Integración de la conservación de la biodiversidad y la gestión del capital natural en las estrategias empresariales.
+                .info-card(data-card="10")
+                  .card-content.px-3
+                    .h5.mb-2 Regulaciones más estrictas y mayor transparencia
+                    p.mb-0 Implementación de normativas más rigurosas que exigen a las empresas una mayor transparencia y responsabilidad en sus prácticas sostenibles.
+              
 
               img(src='@/assets/curso/temas/tema_1/img_11.svg', class="img-fluid d-none d-lg-block mb-0")
-              img(src='@/assets/curso/temas/tema_1/img_12.svg', class="img-fluid d-block d-lg-none mb-0")</template>
-
+              img(src='@/assets/curso/temas/tema_1/img_12.svg', class="img-fluid d-block d-lg-none mb-0")
+        .col-12.col-lg-10.mb-3
+          p.mb-0 Ir a los siguientes videos donde se muestra la dinámica e importancia de los negocios verdes hoy:
+      
+    .row.justify-content-center.align-items-stretch.mb-5.g-4
+      .col-12.col-lg-5(data-aos="zoom-in-right")
+        .cita--link.h-100
+          .cita--link__caja.py-3.px-4.h-100
+            .row.align-items-center.justify-content-center.h-100.position-relative.g-3
+              .col-12.col-lg-2.cita--link__icono.text-center
+                figure.mb-0
+                  img(src='@/assets/curso/temas/tema_1/img_14.svg', class="img-fluid")
+              .col-12.col-lg-6.text-center
+                h5.cita--link__titulo.mb-0 Negocios Verdes
+              .col-12.col-lg-4.text-center.text-lg-end
+                a.boton.color-acento-botones.d-inline-flex.align-items-center.gap-2(href="https://www.youtube.com/watch?v=AYRX9Ofq5xk&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA" target="_blank")
+                  span Ir al enlace
+                  i.fas.fa-link
+  
+      .col-12.col-lg-5(data-aos="zoom-in-right")
+        .cita--link.h-100
+          .cita--link__caja.h-100
+            .row.align-items-center.justify-content-center.h-100.position-relative.g-3
+              .col-12.col-lg-2.cita--link__icono.text-center
+                figure.mb-0
+                  img(src='@/assets/curso/temas/tema_1/img_14.svg', class="img-fluid")
+              .col-12.col-lg-6.text-center
+                p.cita--link__titulo.mb-1
+                  strong Guía de Emprendimiento Sostenible en Colombia
+                p.cita--link__subtitulo.mb-0 TvAgro por Juan Gonzalo Angel
+              .col-12.col-lg-4.text-center.text-lg-end
+                a.boton.color-acento-botones.d-inline-flex.align-items-center.gap-2(href="https://www.youtube.com/watch?v=2tI03K0Uv50&ab_channel=TvAgro" target="_blank")
+                  span Ir al enlace
+                  i.fas.fa-link
+</template>
 <script>
 export default {
   name: 'Tema1',

@@ -21,7 +21,8 @@
         #t_7_1.titulo-segundo.color-acento-contenido
           .h2(data-aos="fade-right") 7.1 Concepto
         .mb-3
-
+    
+    .bg_img_14.mb-0
       .row.justify-content-center.align-items-center.mb-5
         .col-8.col-lg-3.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure
@@ -31,33 +32,79 @@
           p.mb-3 Estos formatos no solo venden productos, también transmiten valores ecológicos, educación ambiental y compromiso con la comunidad. Incluyen desde tiendas físicas hasta plataformas digitales con enfoque ecológico.
       
       .row.justify-content-center.align-items-center.mb-0
-      .col-12.col-lg-10(data-aos="zoom-in-right")
-        .cita-decorada
-          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-2.p-4
-            .row.justify-content-center.align-items-center
-              .col-10.col-lg-8
-                p.cita-decorada__texto.mb-0 Por ejemplo, una tienda que vende productos a granel sin empaques plásticos aplica un formato comercial verde al reducir residuos desde la experiencia de compra.
-              .col-2.col-lg-2.d-none.d-lg-block
-                figure
+        .col-12.col-lg-10(data-aos="zoom-in-right")
+          .cita-decorada
+            blockquote.cita-decorada__caja.cita-decorada__caja--fondo-2.p-4
+              .row.justify-content-center.align-items-center
+                .col-10.col-lg-8
+                  p.cita-decorada__texto.mb-0 Por ejemplo, una tienda que vende productos a granel sin empaques plásticos aplica un formato comercial verde al reducir residuos desde la experiencia de compra.
+                .col-2.col-lg-2.d-none.d-lg-block
+                  figure
                   img(src='@/assets/curso/temas/tema_7/img_3.png', class="cita-decorada__imagen-flotante-2")
 
-    .bg_img_12.mb-0
-       separador
+      separador
 
-    .row.justify-content-center.align-items-center.mb-0
-      .col-12.col-lg-10.mb-0
-        #t_7_2.titulo-segundo.color-acento-contenido
-          .h2(data-aos="fade-right") 7.2.	Tipos
-        .mb-3
+      .row.justify-content-center.align-items-center.mb-0
+        .col-12.col-lg-10.mb-0
+          #t_7_2.titulo-segundo.color-acento-contenido
+            .h2(data-aos="fade-right") 7.2.	Tipos
+          .mb-3
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-8.col-lg-1.mb-lg-0.mb-3(data-aos="zoom-in-right")
-        figure
-          img(src="@/assets/curso/temas/tema_7/img_5.png", class="img-fluid")
-      .col-12.col-lg-9(data-aos="zoom-in-right")
-        p.mb-3 Los formatos comerciales verdes pueden variar según su diseño, tamaño, canal de venta o modelo operativo. A continuación, se presentan algunos de los más comunes:
-        h5.mb-0 Tipos de formatos comerciales verdes:
-
+      .row.justify-content-center.align-items-center.mb-5
+        .col-8.col-lg-1.mb-lg-0.mb-3(data-aos="zoom-in-right")
+          figure
+            img(src="@/assets/curso/temas/tema_7/img_5.png", class="img-fluid")
+        .col-12.col-lg-9(data-aos="zoom-in-right")
+          p.mb-3 Los formatos comerciales verdes pueden variar según su diseño, tamaño, canal de venta o modelo operativo. A continuación, se presentan algunos de los más comunes:
+          h5.mb-0 Tipos de formatos comerciales verdes:
+    
+    .bg_img_10.mb-0
+      SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5.mb-3 Tiendas físicas ecoamigables
+            p.mb-3 Locales diseñados con materiales sostenibles y políticas de ahorro energético.
+            h5.mb-0 Ejemplo.
+            p.mb-0 Supermercado con iluminación LED y reciclaje.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_7/img_7.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5.mb-3 Tiendas a granel
+            p.mb-3 Venden productos sin empaques, invitando al consumidor a llevar sus propios envases.
+            h5.mb-0 Ejemplo.
+            p.mb-0 Tienda de cereales, semillas, legumbres.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_7/img_8.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5.mb-3 Plataformas digitales verdes
+            p.mb-3 Comercio en línea que promueve productos sostenibles y reduce la huella de carbono.
+            h5.mb-0 Ejemplo.
+            p.mb-0 Tienda web de cosméticos orgánicos.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_7/img_9.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5.mb-3 Ferias o mercados ecológicos
+            p.mb-3 Espacios temporales donde se ofrecen productos locales, orgánicos y artesanales.
+            h5.mb-0 Ejemplo.
+            p.mb-0 Feria de agricultura orgánica en el barrio.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_7/img_10.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5.mb-3 Showrooms sostenibles
+            p.mb-3 Espacios para experimentar productos ecológicos antes de comprarlos, sin generar residuos.
+            h5.mb-0 Ejemplo.
+            p.mb-0 Sala de exhibición de muebles reciclados.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_7/img_11.png', class="img-fluid")
 
     separador
 

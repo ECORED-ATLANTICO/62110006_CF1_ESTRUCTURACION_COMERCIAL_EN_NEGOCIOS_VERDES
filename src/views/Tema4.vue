@@ -57,8 +57,8 @@
           h5 Figura 5.
           span Valores del cliente verde. 
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_4/img_5.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la figura  se describen valores y motivaciones del cliente verde: Principios clave: Cuidado ambiental. Ética. Justicia social. Compran productos que: Tienen impacto positivo. Provienen de marcas éticas. No dañan el ambiente ni vulneran derechos. Prefieren marcas con: Equidad. Transparencia. Respeto por los derechos humanos.")
-          img(src='@/assets/curso/temas/tema_4/img_6.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la figura  se describen valores y motivaciones del cliente verde: Principios clave: Cuidado ambiental. Ética. Justicia social. Compran productos que: Tienen impacto positivo. Provienen de marcas éticas. No dañan el ambiente ni vulneran derechos. Prefieren marcas con: Equidad. Transparencia. Respeto por los derechos humanos.")
+          img(src='@/assets/curso/temas/tema_4/img_5.svg', class="img-fluid d-none d-lg-block mb-3")
+          img(src='@/assets/curso/temas/tema_4/img_6.svg', class="img-fluid d-block d-lg-none mb-3")
         figcaption(data-aos="zoom-in-right") 
           <b>Fuente:</b> SENA, 2025.
     
