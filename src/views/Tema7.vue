@@ -14,8 +14,7 @@
       .bloque-texto-t__texto.col-10.mb-0.p-4
         p.mb-0 Los formatos comerciales verdes son importantes porque promueven el consumo responsable y la sostenibilidad. Reducen el impacto ambiental en cada etapa del proceso comercial. Además, responden a una creciente demanda de consumidores conscientes y comprometidos.
 
-
-      separador
+    separador
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-10.mb-0
