@@ -109,7 +109,7 @@
       .h2(data-aos="fade-right") 2.3 Métodos
     .mb-3
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-start.mb-5
       .col-8.col-lg-3.mb-lg-0.mb-3(data-aos="zoom-in-right")
         figure
           img(src="@/assets/curso/temas/tema_2/img_12.png", class="img-fluid")

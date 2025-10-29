@@ -186,6 +186,7 @@
                 a.boton.color-acento-botones.d-inline-flex.align-items-center.gap-2(href="https://www.youtube.com/watch?v=DWjhZ4fNVuk&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA" target="_blank")
                   span Ir al enlace
                   i.fas.fa-link
+    
 </template>
 
 <script>
