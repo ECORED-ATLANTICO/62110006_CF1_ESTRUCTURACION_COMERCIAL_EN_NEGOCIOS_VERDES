@@ -159,7 +159,7 @@
               .punto-title-2.always-visible.mb-0
                 .h6.mb-0 Propuesta única
 
-            .punto-wrapper-2.mb-0(style="top: 40%; left: 47%;")
+            .punto-wrapper-2.mb-0(style="top: 40%; left: 45%;")
               label.punto-info-2.mb-0(for="infografia-2-punto-3")
                 .punto-numero-2.mb-0 3
               .punto-title-2.always-visible
@@ -243,40 +243,58 @@
             .info-cards-container-3.mb-3
               .info-card-3(data-card="1")
                 .card-content-3.px-3
-                  .h5.mb-2 Botellas de tapa reutilizables
-                  p.mb-0 Diseño tipo pop-up con cierre hermético que permite múltiples usos.
+                  h5.mb-0 Bolsas de tela reutilizables
+                  p.mb-3 Hechas con algodón orgánico y tintas vegetales.
+                  h5.mb-0 Beneficio para el cliente. 
+                  p.mb-0 Cuida el ambiente y evita el uso de plástico de un solo uso.
               .info-card-3(data-card="2")
                 .card-content-3.px-3
-                  .h5.mb-2 Cosméticos naturales
-                  p.mb-0 Productos hechos con ingredientes biodegradables y sin pruebas en animales.
+                  h5.mb-0 Cosméticos naturales
+                  p.mb-3 Ingredientes 100 % orgánicos, sin pruebas en animales.
+                  h5.mb-0 Beneficio para el cliente. 
+                  p.mb-0 Seguridad para la piel y respeto por los animales.
               .info-card-3(data-card="3")
                 .card-content-3.px-3
-                  .h5.mb-2 Aguacate ecológico
-                  p.mb-0 Cultivo orgánico sin fertilizantes ni pesticidas sintéticos.
+                  h5.mb-0 Aguacate ecológico
+                  p.mb-3 Cultivo sin pesticidas y manejo del suelo sostenible.
+                  h5.mb-0 Beneficio para el cliente. 
+                  p.mb-0 Salud y apoyo a la agricultura responsable.
               .info-card-3(data-card="4")
                 .card-content-3.px-3
-                  .h5.mb-2 Empaques kraft
-                  p.mb-0 Envases amigables, biodegradables y reciclables.
+                  h5.mb-0 Shampoo sólido
+                  p.mb-3 Sin envase plástico, con ingredientes biodegradables
+                  h5.mb-0 Beneficio para el cliente. 
+                  p.mb-0 Reducción de residuos y cuidado capilar natural.
               .info-card-3(data-card="5")
                 .card-content-3.px-3
-                  .h5.mb-2 Ropa sostenible
-                  p.mb-0 Prendas fabricadas con materiales reciclados y procesos de manufactura ética.
+                  h5.mb-0 Café de comercio justo
+                  p.mb-3 Compra directa a productores locales.
+                  h5.mb-0 Beneficio para el cliente. 
+                  p.mb-0 Sabor de origen, apoyo a economías rurales.
               .info-card-3(data-card="6")
                 .card-content-3.px-3
-                  .h5.mb-2 Champú sólido
-                  p.mb-0 Sin envase plástico, con ingredientes biodegradables y duradero.
+                  h5.mb-0 Ropa sostenible
+                  p.mb-3 Material reciclado y proceso de teñido sin agua.
+                  h5.mb-0 Beneficio para el cliente. 
+                  p.mb-0 Moda consciente y uso responsable de recursos.
               .info-card-3(data-card="7")
                 .card-content-3.px-3
-                  .h5.mb-2 Café de comercio justo
-                  p.mb-0 Apoya a productores locales con beneficios para el cliente.
+                  h5.mb-0 Miel artesanal
+                  p.mb-3 Producción local sin aditivos ni químicos.
+                  h5.mb-0 Beneficio para el cliente. 
+                  p.mb-0 Producto puro y fortalecimiento de la apicultura local.
               .info-card-3(data-card="8")
                 .card-content-3.px-3
-                  .h5.mb-2 Miel artesanal
-                  p.mb-0 Producto puro y fermentado directamente del apicultor local.
+                  h5.mb-0 Kit de limpieza ecológica
+                  p.mb-3 Incluye vinagre, bicarbonato, frascos reutilizables.
+                  h5.mb-0 Beneficio para el cliente. 
+                  p.mb-0 Hogar limpio sin dañar el medioambiente.
               .info-card-3(data-card="9")
                 .card-content-3.px-3
-                  .h5.mb-2 Kit de limpieza ecológica
-                  p.mb-0 Productos biodegradables para el hogar sin químicos dañinos.
+                  h5.mb-0 Muebles reciclados
+                  p.mb-3 Hogar limpio sin dañar el medioambiente.
+                  h5.mb-0 Beneficio para el cliente. 
+                  p.mb-0 Diseño original y reutilización de materiales.
 
             img(src='@/assets/curso/temas/tema_6/img_14.svg', class="img-fluid d-none d-lg-block mb-0")
             img(src='@/assets/curso/temas/tema_6/img_15.svg', class="img-fluid d-block d-lg-none mb-0")
