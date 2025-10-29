@@ -691,7 +691,7 @@ figcaption
 .bg-color-acento-contenido-5
   background-color: $color-acento-contenido-5
 
-// Estilo para el infografia
+// Estilos para la infografia
 figure.infografia-figure-container
   position: relative
   margin: 0
@@ -793,12 +793,16 @@ figure.infografia-figure-container
     transform: translate(-105%, -50%)
 
 @for $i from 1 through 10
-  #infografia-punto-#{$i}:checked ~ figure.infografia-figure-container label[for='infografia-punto-#{$i}'],
-  figure.infografia-figure-container label.punto-info[for='infografia-punto-#{$i}']:hover
-    z-index: 40 !important 
-  #infografia-punto-#{$i}:checked ~ figure.infografia-figure-container .info-card[data-card='#{$i}'],
-  figure.infografia-figure-container label.punto-info[for='infografia-punto-#{$i}']:hover ~ .info-cards-container .info-card[data-card='#{$i}']
-    display: flex
+  @media (max-width: 768px)
+    #infografia-punto-#{$i}:checked ~ figure.infografia-figure-container .info-card[data-card='#{$i}']
+      display: flex
+    #infografia-punto-#{$i}:checked ~ figure.infografia-figure-container label[for='infografia-punto-#{$i}']
+      z-index: 40 !important
+  @media (min-width: 769px)
+    figure.infografia-figure-container label.punto-info[for='infografia-punto-#{$i}']:hover ~ .info-cards-container .info-card[data-card='#{$i}']
+      display: flex
+    figure.infografia-figure-container label.punto-info[for='infografia-punto-#{$i}']:hover
+      z-index: 40 !important
 
 @media (max-width: 768px)
   label.punto-info
@@ -859,7 +863,7 @@ figure.infografia-figure-container
     &[data-card='10']
       top: 39% !important   
 
-// Estilo para la infografía 2
+// Estilos para la infografia 2
 figure.infografia-2-figure-container
   position: relative
   margin: 0
@@ -1099,9 +1103,10 @@ figure.infografia-2-figure-container
 
   .info-card-2
     width: 90% !important
-    max-width: 400px
+    max-width: 185px !important
     left: 50% !important
     transform: translate(-50%, 0) !important
+    padding-top: 1rem
     
     &::before
       display: none !important
@@ -1130,7 +1135,7 @@ figure.infografia-2-figure-container
       opacity: 1
       transform: translate(-50%, 0)
 
-// Estilo para la infografía 3 (puntos sobre imágenes de fondo)
+// Estilos para la infografia 3 
 figure.infografia-3-figure-container
   position: relative
   margin: 0
