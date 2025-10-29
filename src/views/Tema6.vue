@@ -130,55 +130,65 @@
                 .col-8.col-lg-4.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_6/img_10.svg', class="img-fluid")(data-aos="fade-up")
-    .row.justify-content-center.align-items-center.mb-0
+    
+    .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10 
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Figura 7.
           span Aplicabilidad TPDP en los productos y servicios verdes
         
-        .custom-infografia-container
-          input#infografia-punto-0.d-none(type="radio" name="infografia-puntos")
-          input#infografia-punto-1.d-none(type="radio" name="infografia-puntos")
-          input#infografia-punto-2.d-none(type="radio" name="infografia-puntos")
-          input#infografia-punto-3.d-none(type="radio" name="infografia-puntos")
-          input#infografia-punto-4.d-none(type="radio" name="infografia-puntos")
+        .custom-infografia-2-container
+          input#infografia-2-punto-0.d-none(type="radio" name="infografia-2-puntos")
+          input#infografia-2-punto-1.d-none(type="radio" name="infografia-2-puntos")
+          input#infografia-2-punto-2.d-none(type="radio" name="infografia-2-puntos")
+          input#infografia-2-punto-3.d-none(type="radio" name="infografia-2-puntos")
+          input#infografia-2-punto-4.d-none(type="radio" name="infografia-2-puntos")
 
-          figure.infografia-figure-container
-            .info-cards-container.mb-3
-              .info-card(data-card="1")
-                .card-content.px-3
-                  .h5.mb-2 Cliente verde
+          figure.infografia-2-figure-container
+            label.infografia-2-figure-container__bg-close(for="infografia-2-punto-0")
+        
+            .punto-wrapper-2.mb-0(style="top: 40%; left: 7%;")
+              label.punto-info-2.mb-0(for="infografia-2-punto-1")
+                .punto-numero-2.mb-0 1
+              .punto-title-2.always-visible.mb-0
+                .h6.mb-0 Cliente verde
+
+            .punto-wrapper-2.mb-0(style="top: 40%; left: 25%;")
+              label.punto-info-2.mb-0(for="infografia-2-punto-2")
+                .punto-numero-2.mb-0 2
+              .punto-title-2.always-visible.mb-0
+                .h6.mb-0 Propuesta única
+
+            .punto-wrapper-2.mb-0(style="top: 40%; left: 47%;")
+              label.punto-info-2.mb-0(for="infografia-2-punto-3")
+                .punto-numero-2.mb-0 3
+              .punto-title-2.always-visible
+                .h6.mb-0 Comunicación transparente
+
+            .punto-wrapper-2.mb-0(style="top: 40%; left: 74%;")
+              label.punto-info-2.mb-0(for="infografia-2-punto-4")
+                .punto-numero-2.mb-0 4
+              .punto-title-2.always-visible.mb-0
+                .h6.mb-0 Educación ecológica
+
+            .info-cards-container-2
+              .info-card-2(data-card="1")
+                .card-content-2.px-3.py-3
                   p.mb-0 Identificar valores ambientales del consumidor.
-
-              .info-card(data-card="2")
-                .card-content.px-3
-                  .h5.mb-2 Propuesta única
-                  p.mb-0 Aquí va la descripción detallada de la Propuesta Única para el Punto 2.
-
-              .info-card(data-card="3")
-                .card-content.px-3
-                  .h5.mb-2 Comunicación transparente
-                  p.mb-0 Contenido del punto 3.
-
-              .info-card(data-card="4")
-                .card-content.px-3
-                  .h5.mb-2 Educación ecológica
-                  p.mb-0 Contenido del punto 4.
-
-            label.punto-info(for="infografia-punto-1" style="top: 50%; left: 15%;")
-              .punto-numero 1
-            label.punto-info(for="infografia-punto-2" style="top: 50%; left: 35%;")
-              .punto-numero 2 
-            label.punto-info(for="infografia-punto-3" style="top: 50%; left: 55%;")
-              .punto-numero 3
-            label.punto-info(for="infografia-punto-4" style="top: 50%; left: 75%;")
-              .punto-numero 4
-            label.infografia-figure-container__bg-close(for="infografia-punto-0")
+              .info-card-2(data-card="2")
+                .card-content-2.px-3.py-3
+                  p.mb-0 combinar sostenibilidad, calidad y experiencia.
+              .info-card-2(data-card="3")
+                .card-content-2.px-3.py-3
+                  p.mb-0 mostrar beneficios con evidencia verificable.
+              .info-card-2(data-card="4")
+                .card-content-2.px-3.py-3
+                  p.mb-0 incluir mensajes que formen conciencia ambiental.
 
             img(src='@/assets/curso/temas/tema_6/img_11.svg', class="img-fluid d-none d-lg-block mb-0")
             img(src='@/assets/curso/temas/tema_6/img_12.svg', class="img-fluid d-block d-lg-none mb-0")
     
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-5
       .col-1.col-lg-1.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema_6/img_13.png', class="cita-decorada__imagen-flotante-1")
@@ -186,7 +196,90 @@
         p.mb-3 A continuación, presentamos una tabla TPDP enfocada en negocios verdes, que ilustra cómo aplicar el valor agregado y el paquete de beneficios:
         h5.mb-0 Ejemplos de aplicabilidad de valor agregado en negocios verdes:
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-10.mb-0
+        .custom-infografia-3-container
+          input#infografia-3-punto-0.d-none(type="radio" name="infografia-3-puntos")
+          input#infografia-3-punto-1.d-none(type="radio" name="infografia-3-puntos")
+          input#infografia-3-punto-2.d-none(type="radio" name="infografia-3-puntos")
+          input#infografia-3-punto-3.d-none(type="radio" name="infografia-3-puntos")
+          input#infografia-3-punto-4.d-none(type="radio" name="infografia-3-puntos")
+          input#infografia-3-punto-5.d-none(type="radio" name="infografia-3-puntos")
+          input#infografia-3-punto-6.d-none(type="radio" name="infografia-3-puntos")
+          input#infografia-3-punto-7.d-none(type="radio" name="infografia-3-puntos")
+          input#infografia-3-punto-8.d-none(type="radio" name="infografia-3-puntos")
+          input#infografia-3-punto-9.d-none(type="radio" name="infografia-3-puntos")
 
+          figure.infografia-3-figure-container
+            label.infografia-3-figure-container__bg-close(for="infografia-3-punto-0")
+
+            label.punto-info-3(for="infografia-3-punto-1" style="top: 37%; left: 11%;")
+              .punto-numero-3 1
+
+            label.punto-info-3(for="infografia-3-punto-2" style="top: 37%; left: 29.5%;")
+              .punto-numero-3 2
+
+            label.punto-info-3(for="infografia-3-punto-3" style="top: 37%; left: 48.3%;")
+              .punto-numero-3 3
+
+            label.punto-info-3(for="infografia-3-punto-4" style="top: 37%; left: 66.5%;")
+              .punto-numero-3 4
+
+            label.punto-info-3(for="infografia-3-punto-5" style="top: 37%; left: 85.5%;")
+              .punto-numero-3 5
+
+            label.punto-info-3(for="infografia-3-punto-6" style="top: 76%; left: 20.5%;")
+              .punto-numero-3 6
+
+            label.punto-info-3(for="infografia-3-punto-7" style="top: 76%; left: 38.5%;")
+              .punto-numero-3 7
+
+            label.punto-info-3(for="infografia-3-punto-8" style="top: 76%; left: 57.5%;")
+              .punto-numero-3 8
+
+            label.punto-info-3(for="infografia-3-punto-9" style="top: 76%; left: 75.5%;")
+              .punto-numero-3 9
+
+            .info-cards-container-3.mb-3
+              .info-card-3(data-card="1")
+                .card-content-3.px-3
+                  .h5.mb-2 Botellas de tapa reutilizables
+                  p.mb-0 Diseño tipo pop-up con cierre hermético que permite múltiples usos.
+              .info-card-3(data-card="2")
+                .card-content-3.px-3
+                  .h5.mb-2 Cosméticos naturales
+                  p.mb-0 Productos hechos con ingredientes biodegradables y sin pruebas en animales.
+              .info-card-3(data-card="3")
+                .card-content-3.px-3
+                  .h5.mb-2 Aguacate ecológico
+                  p.mb-0 Cultivo orgánico sin fertilizantes ni pesticidas sintéticos.
+              .info-card-3(data-card="4")
+                .card-content-3.px-3
+                  .h5.mb-2 Empaques kraft
+                  p.mb-0 Envases amigables, biodegradables y reciclables.
+              .info-card-3(data-card="5")
+                .card-content-3.px-3
+                  .h5.mb-2 Ropa sostenible
+                  p.mb-0 Prendas fabricadas con materiales reciclados y procesos de manufactura ética.
+              .info-card-3(data-card="6")
+                .card-content-3.px-3
+                  .h5.mb-2 Champú sólido
+                  p.mb-0 Sin envase plástico, con ingredientes biodegradables y duradero.
+              .info-card-3(data-card="7")
+                .card-content-3.px-3
+                  .h5.mb-2 Café de comercio justo
+                  p.mb-0 Apoya a productores locales con beneficios para el cliente.
+              .info-card-3(data-card="8")
+                .card-content-3.px-3
+                  .h5.mb-2 Miel artesanal
+                  p.mb-0 Producto puro y fermentado directamente del apicultor local.
+              .info-card-3(data-card="9")
+                .card-content-3.px-3
+                  .h5.mb-2 Kit de limpieza ecológica
+                  p.mb-0 Productos biodegradables para el hogar sin químicos dañinos.
+
+            img(src='@/assets/curso/temas/tema_6/img_14.svg', class="img-fluid d-none d-lg-block mb-0")
+            img(src='@/assets/curso/temas/tema_6/img_15.svg', class="img-fluid d-block d-lg-none mb-0")
 </template>
 
 <script>
