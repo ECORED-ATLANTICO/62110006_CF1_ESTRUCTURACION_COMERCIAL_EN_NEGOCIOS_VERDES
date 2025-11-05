@@ -49,8 +49,47 @@
         figure
           img(src="@/assets/curso/temas/tema_4/img_4.png", class="img-fluid")
       .col-12.col-lg-9(data-aos="zoom-in-right")
-        p.mb-0 El consumidor verde no solo se interesa por la calidad y el precio de los productos, sino que además incorpora criterios éticos y ambientales en sus decisiones de compra. Su comportamiento refleja una creciente conciencia sobre el impacto que el consumo tiene en el planeta y en las generaciones futuras. A continuación, se presentan algunas de las principales características que definen a este grupo de consumidores:
-
+        p.mb-5 El consumidor verde no solo se interesa por la calidad y el precio de los productos, sino que además incorpora criterios éticos y ambientales en sus decisiones de compra. Su comportamiento refleja una creciente conciencia sobre el impacto que el consumo tiene en el planeta y en las generaciones futuras. A continuación, se presentan algunas de las principales características que definen a este grupo de consumidores:
+    
+    .bg_img_10.mb-5
+      SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Preferencia por productos sostenibles	 
+            p.mb-3 Son consumidores que eligen bienes y servicios con bajo impacto ambiental, producidos de forma ética y responsable. Valoran aspectos como el uso de materiales reciclables, procesos de producción limpios, y la responsabilidad social de las empresas.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_4/img_8.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Perfil sociodemográfico	
+            p.mb-3 Generalmente tienen un nivel educativo medio-alto y acceso a información sobre sostenibilidad. Aunque anteriormente se asociaban principalmente con personas de mayor poder adquisitivo; se identifican en distintos grupos sociales, ya que la preocupación por el medio ambiente se ha generalizado.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_4/img_9.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Valores y motivaciones	
+            p.mb-3 Se guían por principios como el cuidado ambiental, la ética y la justicia social; influyendo  directamente en sus decisiones de compra. Además, tienden a apoyar marcas que promueven la equidad, la transparencia y el respeto por los derechos humanos.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_4/img_10.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Hábitos de compra informados	
+            p.mb-3 Investigan el impacto ecológico de los productos, valoran certificaciones ambientales como ISO 14001, USDA <em>Organic</em> o <em>Fair Trade</em>, y prefieren empaques reciclables o biodegradables. También consideran el origen de los productos y el compromiso ambiental de las marcas.	  
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_4/img_11.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-5.order-2.order-lg-1.mb-0
+            h5 Compromiso con el medio ambiente	
+            p.mb-3 Demuestran una actitud activa hacia la protección del planeta, lo que se refleja en un estilo de vida más consciente y responsable. Adoptan prácticas como el reciclaje, la reducción del consumo innecesario, y la participación en iniciativas ambientales o comunitarias.	  
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_4/img_12.png', class="img-fluid")
+        
+    
     .row.justify-content-center.align-items-center
       .col-12.col-lg-10.mb-5
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")

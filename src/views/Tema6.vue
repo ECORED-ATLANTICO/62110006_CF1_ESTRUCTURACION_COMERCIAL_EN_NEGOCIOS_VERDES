@@ -134,62 +134,15 @@
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Figura 7.
           span Aplicabilidad TPDP en los productos y servicios verdes
-        
-        .custom-infografia-2-container
-          input#infografia-2-punto-0.d-none(type="radio" name="infografia-2-puntos")
-          input#infografia-2-punto-1.d-none(type="radio" name="infografia-2-puntos")
-          input#infografia-2-punto-2.d-none(type="radio" name="infografia-2-puntos")
-          input#infografia-2-punto-3.d-none(type="radio" name="infografia-2-puntos")
-          input#infografia-2-punto-4.d-none(type="radio" name="infografia-2-puntos")
+        figure(data-aos="zoom-in-right").mb-3
+          img(src='@/assets/curso/temas/tema_6/img_11.svg', class="img-fluid d-none d-lg-block mb-0", alt="En la imagen se describe la aplicación del modelo TPDP en negocios verdes. Cliente verde: identificar valores ambientales del consumidor. Propuesta única: combinar sostenibilidad, calidad y experiencia. Comunicación transparente: mostrar beneficios con evidencia verificable. Educación ecológica: incluir mensajes que formen conciencia ambiental.")
+          img(src='@/assets/curso/temas/tema_6/img_12.svg', class="img-fluid d-block d-lg-none mb-0", alt="En la imagen se describe la aplicación del modelo TPDP en negocios verdes. Cliente verde: identificar valores ambientales del consumidor. Propuesta única: combinar sostenibilidad, calidad y experiencia. Comunicación transparente: mostrar beneficios con evidencia verificable. Educación ecológica: incluir mensajes que formen conciencia ambiental.")
+        figcaption(data-aos="zoom-in-right") 
+          <b>Fuente:</b> SENA, 2025.
 
-          figure.infografia-2-figure-container
-            label.infografia-2-figure-container__bg-close(for="infografia-2-punto-0")
-        
-            .punto-wrapper-2.mb-0(style="top: 40%; left: 7%;")
-              label.punto-info-2.mb-0(for="infografia-2-punto-1")
-                .punto-numero-2.mb-0 1
-              .punto-title-2.always-visible.mb-0
-                .h6.mb-0 Cliente verde
-
-            .punto-wrapper-2.mb-0(style="top: 40%; left: 25%;")
-              label.punto-info-2.mb-0(for="infografia-2-punto-2")
-                .punto-numero-2.mb-0 2
-              .punto-title-2.always-visible.mb-0
-                .h6.mb-0 Propuesta única
-
-            .punto-wrapper-2.mb-0(style="top: 40%; left: 45%;")
-              label.punto-info-2.mb-0(for="infografia-2-punto-3")
-                .punto-numero-2.mb-0 3
-              .punto-title-2.always-visible
-                .h6.mb-0 Comunicación transparente
-
-            .punto-wrapper-2.mb-0(style="top: 40%; left: 74%;")
-              label.punto-info-2.mb-0(for="infografia-2-punto-4")
-                .punto-numero-2.mb-0 4
-              .punto-title-2.always-visible.mb-0
-                .h6.mb-0 Educación ecológica
-
-            .info-cards-container-2
-              .info-card-2(data-card="1")
-                .card-content-2.px-3.py-3
-                  p.mb-0 Identificar valores ambientales del consumidor.
-              .info-card-2(data-card="2")
-                .card-content-2.px-3.py-3
-                  p.mb-0 combinar sostenibilidad, calidad y experiencia.
-              .info-card-2(data-card="3")
-                .card-content-2.px-3.py-3
-                  p.mb-0 mostrar beneficios con evidencia verificable.
-              .info-card-2(data-card="4")
-                .card-content-2.px-3.py-3
-                  p.mb-0 incluir mensajes que formen conciencia ambiental.
-
-            img(src='@/assets/curso/temas/tema_6/img_11.svg', class="img-fluid d-none d-lg-block mb-0")
-            img(src='@/assets/curso/temas/tema_6/img_12.svg', class="img-fluid d-block d-lg-none mb-0")
-    
     .row.justify-content-center.align-items-center.mb-5
       .col-1.col-lg-1.d-none.d-lg-block
-        figure
-          img(src='@/assets/curso/temas/tema_6/img_13.png', class="cita-decorada__imagen-flotante-1")
+        img(src='@/assets/curso/temas/tema_6/img_13.png', class="img-fluid d-none d-lg-block mb-0")
       .col-12.col-lg-9.mb-lg-0.mb-3
         p.mb-3 A continuación, presentamos una tabla TPDP enfocada en negocios verdes, que ilustra cómo aplicar el valor agregado y el paquete de beneficios:
         h5.mb-0 Ejemplos de aplicabilidad de valor agregado en negocios verdes:
