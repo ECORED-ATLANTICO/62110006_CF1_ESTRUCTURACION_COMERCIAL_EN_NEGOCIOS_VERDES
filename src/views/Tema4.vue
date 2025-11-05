@@ -57,8 +57,8 @@
           h5 Figura 5.
           span Valores del cliente verde. 
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_4/img_5.svg', class="img-fluid d-none d-lg-block mb-3")
-          img(src='@/assets/curso/temas/tema_4/img_6.svg', class="img-fluid d-block d-lg-none mb-3")
+          img(src='@/assets/curso/temas/tema_4/img_5.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la imagen se describen valores y motivaciones del cliente verde: Principios clave: - Cuidado ambiental. - Ética. - Justicia social. Compran productos que: - Tienen impacto positivo. - Provienen de marcas éticas. - No dañan el ambiente ni vulneran derechos. Prefieren marcas con: - Equidad. - Transparencia. - Respeto por los derechos humanos.")
+          img(src='@/assets/curso/temas/tema_4/img_6.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la imagen se describen valores y motivaciones del cliente verde: Principios clave: - Cuidado ambiental. - Ética. - Justicia social. Compran productos que: - Tienen impacto positivo. - Provienen de marcas éticas. - No dañan el ambiente ni vulneran derechos. Prefieren marcas con: - Equidad. - Transparencia. - Respeto por los derechos humanos.")
         figcaption(data-aos="zoom-in-right") 
           <b>Fuente:</b> SENA, 2025.
     
@@ -71,6 +71,11 @@
           #t_4_3.titulo-segundo.color-acento-contenido
             .h2(data-aos="fade-right") 4.3 Tipologías
           .mb-3
+      
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-10.mb-0(data-aos="zoom-in-right")
+          p.mb-0 El consumidor consciente considera el impacto ambiental y social de sus compras. A continuación, se destacan sus principales tipos de consumidores o clientes verdes con ejemplos de su comportamiento.
+
 
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10     
@@ -88,31 +93,31 @@
                   th.col-4.col-lg-4 Ejemplo
               tbody
                 tr
-                  td Activismo ecológico	
+                  td Activismo ecológico.	
                   td Participa en campañas, movimientos o acciones para defender el medio ambiente.
                   td Firma peticiones para proteger reservas naturales.
                 tr
-                  td Búsqueda de información
+                  td Búsqueda de información.
                   td Investiga antes de comprar, verificando sellos, etiquetas o certificaciones.
                   td Consulta si un producto es libre de crueldad animal.
                 tr
-                  td Conciencia social
+                  td Conciencia social.
                   td Se interesa por las condiciones laborales y el impacto social del producto.
                   td Prefiere marcas que apoyan comunidades vulnerables.
                 tr
-                  td Educación ambiental
+                  td Educación ambiental.
                   td Tiene conocimientos sobre sostenibilidad y busca aprender más sobre el tema.
                   td Asiste a talleres o sigue cuentas educativas en redes sociales.
                 tr
-                  td Preferencia por lo local
+                  td Preferencia por lo local.
                   td Da prioridad a productos fabricados en su región o país.
                   td Compra en mercados de agricultores locales.
                 tr
-                  td Reducción de residuos
+                  td Reducción de residuos.
                   td Minimiza su generación de basura a través del consumo responsable.
                   td Lleva su propia bolsa reutilizable al supermercado.
                 tr
-                  td Reutilización y reciclaje
+                  td Reutilización y reciclaje.
                   td Adopta hábitos de reaprovechamiento de materiales y objetos.
                   td Transforma frascos de vidrio en envases para alimentos.
 </template>

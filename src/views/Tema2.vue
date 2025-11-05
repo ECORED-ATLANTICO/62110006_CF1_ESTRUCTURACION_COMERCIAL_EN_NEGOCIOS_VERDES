@@ -55,7 +55,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 h5.mb-3 Demanda latente 
-                p.mb-0 se manifiesta cuando existe interés en productos amigables con el medio ambiente, pero aún hay limitaciones en la oferta o falta de información clara que permita a los consumidores tomar decisiones informadas. En esta etapa, el mercado verde aún está en formación.
+                p.mb-0 Se manifiesta cuando existe interés en productos amigables con el medio ambiente, pero aún hay limitaciones en la oferta o falta de información clara que permita a los consumidores tomar decisiones informadas. En esta etapa, el mercado verde aún está en formación.
               .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_2/img_5.svg', class="img-fluid")(data-aos="fade-up")
@@ -63,7 +63,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 h5.mb-3 Demanda emergente
-                p.mb-0 representa el crecimiento inicial del mercado verde, donde aumenta la conciencia ambiental y más consumidores comienzan a buscar productos sostenibles, aunque no siempre están dispuestos a pagar un precio más alto.
+                p.mb-0 Representa el crecimiento inicial del mercado verde, donde aumenta la conciencia ambiental y más consumidores comienzan a buscar productos sostenibles, aunque no siempre están dispuestos a pagar un precio más alto.
               .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_2/img_6.svg', class="img-fluid")(data-aos="fade-up")
@@ -71,7 +71,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 h5.mb-3 Demanda consolidada
-                p.mb-0 corresponde a un mercado donde los consumidores valoran activamente la sostenibilidad y buscan productos con certificaciones o atributos verdes claros, aceptando un precio premium a cambio de mayor responsabilidad ambiental.
+                p.mb-0 Corresponde a un mercado donde los consumidores valoran activamente la sostenibilidad y buscan productos con certificaciones o atributos verdes claros, aceptando un precio premium a cambio de mayor responsabilidad ambiental.
               .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_2/img_7.svg', class="img-fluid")(data-aos="fade-up")
@@ -79,7 +79,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 h5.mb-3 Demanda creciente
-                p.mb-0 implica una expansión sostenida y acelerada del consumo de productos y servicios verdes, con diversificación y aumento en la oferta, penetración en diferentes sectores y aceptación masiva.
+                p.mb-0 Implica una expansión sostenida y acelerada del consumo de productos y servicios verdes, con diversificación y aumento en la oferta, penetración en diferentes sectores y aceptación masiva.
               .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_2/img_8.svg', class="img-fluid")(data-aos="fade-up")
@@ -98,8 +98,8 @@
           h5 Figura 1.
           span Clasificación de la demanda sostenible
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_2/img_10.svg', class="img-fluid d-none d-lg-block mb-3")
-          img(src='@/assets/curso/temas/tema_2/img_11.svg', class="img-fluid d-block d-lg-none mb-3")
+          img(src='@/assets/curso/temas/tema_2/img_10.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la imagen se muestra las clases de demanda verde: Demanda latente: hay interés por productos verdes, pero falta oferta o información. Demanda emergente: aumenta la conciencia ambiental, pero no todos pagan más. Demanda consolidada: los consumidores valoran la sostenibilidad y pagan por ella. Demanda creciente: el consumo verde se expande y se vuelve común.")
+          img(src='@/assets/curso/temas/tema_2/img_11.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la imagen se muestra las clases de demanda verde: Demanda latente: hay interés por productos verdes, pero falta oferta o información. Demanda emergente: aumenta la conciencia ambiental, pero no todos pagan más. Demanda consolidada: los consumidores valoran la sostenibilidad y pagan por ella. Demanda creciente: el consumo verde se expande y se vuelve común.")
         figcaption(data-aos="zoom-in-right") 
           <b>Fuente:</b> SENA, 2025.
 
@@ -121,7 +121,7 @@
           div(titulo="Análisis de ventas y cuotas de mercado")
             p.px-5.mb-0 seguimiento cuantitativo de productos con certificación ambiental o atributos sostenibles para determinar la participación y crecimiento en el mercado.
           div(titulo="Monitoreo digital")
-            p.px-5.mb-0 uso de herramientas de análisis de datos y tendencias online para detectar patrones en búsquedas, opiniones y consumo de productos verdes, aprovechando big data e inteligencia artificial.
+            p.px-5.mb-0 uso de herramientas de análisis de datos y tendencias online para detectar patrones en búsquedas, opiniones y consumo de productos verdes, aprovechando <em>big data</em> e inteligencia artificial.
           div(titulo="Evaluación de imagen y reputación corporativa")
             p.px-5.mb-0 análisis del posicionamiento de marcas respecto a sostenibilidad, mediante estudios de percepción y confianza del consumidor.
         p.mb-0 Estos métodos combinados permiten obtener una visión integral de la demanda verde, facilitando la toma de decisiones estratégicas para impulsar su crecimiento (Peattie, 1995).
@@ -132,8 +132,8 @@
           h5 Figura 2.
           span Métodos de evaluación y seguimiento a la demanda.
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_2/img_13.svg', class="img-fluid d-none d-lg-block mb-3")
-          img(src='@/assets/curso/temas/tema_2/img_14.svg', class="img-fluid d-block d-lg-none mb-3")
+          img(src='@/assets/curso/temas/tema_2/img_13.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la imagen se describen metodologías de alcance de la demanda sostenible: Encuestas de opinión y mercado: recogen percepciones y hábitos sobre productos verdes. Análisis de ventas y cuotas de mercado: miden el desempeño de productos sostenibles en el mercado. Monitoreo digital: analizan tendencias y comportamiento online con herramientas tecnológicas. Evaluación de imagen y reputación: estudian cómo se percibe la sostenibilidad de una marca.")
+          img(src='@/assets/curso/temas/tema_2/img_14.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la imagen se describen metodologías de alcance de la demanda sostenible: Encuestas de opinión y mercado: recogen percepciones y hábitos sobre productos verdes. Análisis de ventas y cuotas de mercado: miden el desempeño de productos sostenibles en el mercado. Monitoreo digital: analizan tendencias y comportamiento online con herramientas tecnológicas. Evaluación de imagen y reputación: estudian cómo se percibe la sostenibilidad de una marca.")
         figcaption(data-aos="zoom-in-right") 
           <b>Fuente:</b> SENA, 2025.
 
@@ -168,16 +168,16 @@
                 th.col-7.col-lg-7 Descripción resumida
             tbody
               tr
-                td Impulso a la innovación tecnológica
+                td Impulso a la innovación tecnológica.
                 td Estimula el desarrollo de tecnologías y procesos más limpios y eficientes.
               tr
-                td Ventajas competitivas
+                td Ventajas competitivas.
                 td Permite a las empresas diferenciarse y ganar mercado mediante prácticas sostenibles.
               tr
-                td Fomento de políticas públicas
+                td Fomento de políticas públicas.
                 td Motiva a los gobiernos a crear normas e incentivos para negocios y consumo verde.
               tr
-                td Beneficios sociales y ambientales
+                td Beneficios sociales y ambientales.
                 td Genera empleo verde, protege ecosistemas y mejora la calidad de vida.
 
     separador
@@ -224,8 +224,8 @@
             h5 Figura 3.
             span Tendencias de la demanda sostenible.
           figure(data-aos="zoom-in-right")
-            img(src='@/assets/curso/temas/tema_2/img_22.svg', class="img-fluid d-none d-lg-block mb-3", class="img-fluid")
-            img(src='@/assets/curso/temas/tema_2/img_23.svg', class="img-fluid d-block d-lg-none mb-3", class="img-fluid")
+            img(src='@/assets/curso/temas/tema_2/img_22.svg', class="img-fluid d-none d-lg-block mb-3", class="img-fluid", alt="En la imagen se describen tendencias de la demanda sostenible:  Consumo consciente y transparente: mayor preferencia por productos éticos y con certificaciones. Digitalización educativa: redes y plataformas influyen en decisiones sostenibles. Economía circular: interés en productos reutilizables y con menos residuos. Servicios sostenibles: crecen sectores como turismo ecológico y moda ética.")
+            img(src='@/assets/curso/temas/tema_2/img_23.svg', class="img-fluid d-block d-lg-none mb-3", class="img-fluid", alt="En la imagen se describen tendencias de la demanda sostenible:  Consumo consciente y transparente: mayor preferencia por productos éticos y con certificaciones. Digitalización educativa: redes y plataformas influyen en decisiones sostenibles. Economía circular: interés en productos reutilizables y con menos residuos. Servicios sostenibles: crecen sectores como turismo ecológico y moda ética.")
           figcaption(data-aos="zoom-in-right") 
             <b>Fuente:</b> SENA, 2025.
 

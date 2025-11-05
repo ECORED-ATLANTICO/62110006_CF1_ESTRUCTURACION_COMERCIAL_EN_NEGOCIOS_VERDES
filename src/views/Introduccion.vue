@@ -18,7 +18,7 @@
           .cajon.color-acento-contenido.p-4.mb-0
             .row.justify-content-center.align-items-center
               .col-12.col-lg-11
-                p.mb-0 El aprendiz tendrá la oportunidad de conocer productos y servicios sostenibles, aprenderá a darles valor agregado y a presentarlos de forma atractiva mediante formatos comerciales verdes, portafolios y brochures. Esto le permitirá desarrollar competencias para crear o apoyar proyectos que cuiden el planeta y aporten al bienestar de su comunidad.
+                p.mb-0 El aprendiz tendrá la oportunidad de conocer productos y servicios sostenibles, aprenderá a darles valor agregado y a presentarlos de forma atractiva mediante formatos comerciales verdes, portafolios y <em>brochures</em>. Esto le permitirá desarrollar competencias para crear o apoyar proyectos que cuiden el planeta y aporten al bienestar de su comunidad.
 
     
     figure.mb-5

@@ -314,7 +314,7 @@ export default {
   },
   complementario: [
     {
-      tema: '1 Negocios verdes',
+      tema: 'Negocios verdes',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2020). <i>Negocios verdes</i> [Video]. YouTube.',
       tipo: 'Video',
@@ -322,14 +322,14 @@ export default {
         'https://www.youtube.com/watch?v=AYRX9Ofq5xk&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
     },
     {
-      tema: '1 Negocios verdes',
+      tema: 'Negocios verdes',
       referencia:
         'TvAgro por Juan Gonzalo Angel. (2025). <i>Negocios verdes: Guía de emprendimiento sostenible en Colombia</i> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=2tI03K0Uv50&ab_channel=TvAgro',
     },
     {
-      tema: '5 Productos y servicios verdes',
+      tema: 'Productos y servicios verdes',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2022). <i>Productos y negocios sostenibles</i> [Video]. YouTube.',
       tipo: 'Video',
@@ -337,7 +337,7 @@ export default {
         'https://www.youtube.com/watch?v=P37n6kTYaZ0&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
     },
     {
-      tema: '8 Portafolio de productos y servicios verdes',
+      tema: 'Portafolio de productos y servicios verdes',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2024, 15 de noviembre). <i>Portafolio de productos y servicios</i> [Video]. YouTube.',
       tipo: 'Video',
@@ -345,7 +345,7 @@ export default {
         'https://www.youtube.com/watch?v=DWjhZ4fNVuk&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
     },
     {
-      tema: '<em>9 Brochure</em>',
+      tema: '<em>Brochure</em>',
       referencia:
         'Olaya, M. (2025). <i>Guía para crear brochure</i> [Video]. YouTube.',
       tipo: 'Video',
@@ -421,7 +421,7 @@ export default {
     {
       termino: 'Innovación sostenible',
       significado:
-        'Desarrollo de nuevas soluciones que combinan funcionalidad con cuidado del medioambiente',
+        'Desarrollo de nuevas soluciones que combinan funcionalidad con cuidado del medioambiente.',
     },
     {
       termino: 'Marco legal',

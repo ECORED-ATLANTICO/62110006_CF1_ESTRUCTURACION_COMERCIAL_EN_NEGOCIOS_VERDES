@@ -35,12 +35,10 @@
         .col-12.col-lg-7.mb-lg-0.mb-3
           p.mb-3 El valor agregado consiste en incorporar cualidades adicionales al producto o servicio, que lo hacen más atractivo, útil o valioso para el cliente. Estos atributos pueden estar relacionados con el cuidado del medioambiente, la innovación, la salud del consumidor, la comunidad o el diseño.
           p.mb-3 El paquete de beneficios representa el conjunto completo de ventajas que una persona recibe al comprar un producto o servicio. No solo se refiere a lo que se lleva físicamente, sino a la experiencia, garantía, valores de marca, sostenibilidad, atención al cliente y más.
-          .bloque-texto-b.color-secundario-10.p-4
-            .bloque-texto-b__texto
-              i.fas.fa-quote-left
+          .bloque-texto-b.color-secundario-10.p-3
+            .bloque-texto-b__texto     
               h4.mb-3.ps-3 El paquete total de beneficios que ofrece una empresa es lo que realmente consume el cliente, no solo el producto físico 
-              i.fas.fa-quote-right
-          p.mb-0.text-end Kotler &amp; Armstrong, 2017.
+          p.mb-0.text-end (Kotler &amp; Armstrong, 2017).
 
       separador
 
@@ -261,7 +259,7 @@
                   p.mb-0 Salud y apoyo a la agricultura responsable.
               .info-card-3(data-card="4")
                 .card-content-3.px-3
-                  h5.mb-0 Shampoo sólido
+                  h5.mb-0 <em>Shampoo</em> sólido
                   p.mb-3 Sin envase plástico, con ingredientes biodegradables
                   h5.mb-0 Beneficio para el cliente. 
                   p.mb-0 Reducción de residuos y cuidado capilar natural.
@@ -285,7 +283,7 @@
                   p.mb-0 Producto puro y fortalecimiento de la apicultura local.
               .info-card-3(data-card="8")
                 .card-content-3.px-3
-                  h5.mb-0 Kit de limpieza ecológica
+                  h5.mb-0 <em>Kit</em> de limpieza ecológica
                   p.mb-3 Incluye vinagre, bicarbonato, frascos reutilizables.
                   h5.mb-0 Beneficio para el cliente. 
                   p.mb-0 Hogar limpio sin dañar el medioambiente.

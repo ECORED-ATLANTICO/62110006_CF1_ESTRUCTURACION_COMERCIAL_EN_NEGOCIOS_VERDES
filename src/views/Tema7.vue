@@ -83,7 +83,7 @@
             h5.mb-3 Plataformas digitales verdes
             p.mb-3 Comercio en línea que promueve productos sostenibles y reduce la huella de carbono.
             h5.mb-0 Ejemplo.
-            p.mb-0 Tienda web de cosméticos orgánicos.
+            p.mb-0 Tienda <em>web</em> de cosméticos orgánicos.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_7/img_9.png', class="img-fluid")
@@ -133,7 +133,7 @@
                 p <b>Fuente:</b> Adaptada de Kotler, P. & Keller, K., 2016.
               thead
                 tr
-                  th.col-3.col-lg-3 Criterio de Clasificación
+                  th.col-3.col-lg-3 Criterio de clasificación
                   th.col-5.col-lg-5 Categorías
                   th.col-4.col-lg-4 Ejemplo
               tbody

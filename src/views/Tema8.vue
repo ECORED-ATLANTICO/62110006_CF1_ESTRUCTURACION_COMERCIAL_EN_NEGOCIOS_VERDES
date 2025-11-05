@@ -109,7 +109,7 @@
             h5.mb-3 Productos ecológicos
             p.mb-3 Bienes con diseño responsable, menor huella ecológica y ciclo de vida sostenible.
             h5.mb-0 Ejemplo.
-            p.mb-0 Shampoo sólido biodegradable, bolsas de yute reutilizables.
+            p.mb-0 <em>Shampoo</em> sólido biodegradable, bolsas de yute reutilizables.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_8/img_13.png', class="img-fluid")
@@ -127,7 +127,7 @@
             h5.mb-3 Paquetes combinados
             p.mb-3 Integración de productos + servicios con enfoque educativo o comunitario.
             h5.mb-0 Ejemplo.
-            p.mb-0 Kit de limpieza natural + guía de uso y reducción de residuos.
+            p.mb-0 <em>Kit</em> de limpieza natural + guía de uso y reducción de residuos.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_8/img_15.png', class="img-fluid")

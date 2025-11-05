@@ -106,7 +106,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5 Servicios de movilidad sostenible
             p.mb-3 Transporte que reduce la huella de carbono y utiliza energías limpias.
-            p.mb-0 <B>Ejemplo de producto verde:</B> vehículo eléctrico para uso personal (producto/activo).
+            p.mb-0 <B>Ejemplo de producto verde:</B> vehículo eléctrico para uso personal (producto / activo).
             p.mb-0 <B>Ejemplo de servicio verde:</B> servicio de bicicletas compartidas eléctricas en ciudad.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -204,8 +204,8 @@
             h5 Figura 6.
             span Atributos de los productos y servicios verdes. 
           figure(data-aos="zoom-in-right")
-            img(src='@/assets/curso/temas/tema_5/img_23.svg', class="img-fluid d-none d-lg-block mb-3")
-            img(src='@/assets/curso/temas/tema_5/img_24.svg', class="img-fluid d-block d-lg-none mb-3")
+            img(src='@/assets/curso/temas/tema_5/img_23.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la imagen se describe que los productos y servicios sostenible se destacan por: Respetar ecosistemas y conservar recursos. Usar insumos y energía eficientemente. Incorporar tecnologías limpias e innovadoras. Contar con certificaciones ambientales. Ser transparentes sobre su impacto. Fomentar el bienestar social y la ética.")
+            img(src='@/assets/curso/temas/tema_5/img_24.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la imagen se describe que los productos y servicios sostenible se destacan por: Respetar ecosistemas y conservar recursos. Usar insumos y energía eficientemente. Incorporar tecnologías limpias e innovadoras. Contar con certificaciones ambientales. Ser transparentes sobre su impacto. Fomentar el bienestar social y la ética.")
           figcaption(data-aos="zoom-in-right") 
             <b>Fuente:</b> SENA, 2025.
 

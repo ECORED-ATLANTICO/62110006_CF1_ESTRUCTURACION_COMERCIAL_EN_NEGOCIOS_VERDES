@@ -115,7 +115,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 h5.mb-3 Monitoreo digital
-                p.mb-0  Observación de patrones en redes, buscadores y plataformas de consumo mediante big data e IA.
+                p.mb-0  Observación de patrones en redes, buscadores y plataformas de consumo mediante <em>big data</em> e IA.
                 p.mb-0 <B>Aplicación principal:</B> detectar tendencias, intereses y nichos de mercado verde.
               .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                 figure
@@ -161,19 +161,19 @@
                   th.col-7.col-lg-7 Descripción
               tbody
                 tr
-                  td Impulso a la innovación
+                  td Impulso a la innovación.
                   td Estimula el desarrollo de tecnologías, materiales y procesos limpios y eficientes.
                 tr
-                  td Ventaja competitiva
+                  td Ventaja competitiva.
                   td Permite diferenciar marcas mediante propuestas sostenibles, atrayendo consumidores conscientes.
                 tr
-                  td Estímulo a políticas públicas
+                  td Estímulo a políticas públicas.
                   td Fomenta regulaciones e incentivos estatales que fortalecen los negocios verdes.
                 tr
-                  td Beneficios ambientales
+                  td Beneficios ambientales.
                   td Reduce emisiones, protege ecosistemas y disminuye residuos.
                 tr
-                  td Beneficios sociales
+                  td Beneficios sociales.
                   td Promueve empleos verdes, mejora condiciones laborales y genera bienestar colectivo.
 
     separador
@@ -210,8 +210,8 @@
           h5 Figura 4.
           span Tendencias de la oferta sostenible.
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_3/img_14.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la figura se describen tendencias de la oferta sostenible: Consumo consciente: mayor demanda de transparencia y ética. Digitalización educativa: uso de medios digitales para educar en sostenibilidad. Economía circular: preferencia por productos reutilizables y reciclables. Servicios sostenibles: expansión de sectores con bajo impacto ambiental.")
-          img(src='@/assets/curso/temas/tema_3/img_15.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la figura se describen tendencias de la oferta sostenible: Consumo consciente: mayor demanda de transparencia y ética. Digitalización educativa: uso de medios digitales para educar en sostenibilidad. Economía circular: preferencia por productos reutilizables y reciclables. Servicios sostenibles: expansión de sectores con bajo impacto ambiental.")
+          img(src='@/assets/curso/temas/tema_3/img_14.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la imagen se describen tendencias de la oferta sostenible: Consumo consciente: mayor demanda de transparencia y ética. Digitalización educativa: uso de medios digitales para educar en sostenibilidad. Economía circular: preferencia por productos reutilizables y reciclables. Servicios sostenibles: expansión de sectores con bajo impacto ambiental.")
+          img(src='@/assets/curso/temas/tema_3/img_15.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la imagen se describen tendencias de la oferta sostenible: Consumo consciente: mayor demanda de transparencia y ética. Digitalización educativa: uso de medios digitales para educar en sostenibilidad. Economía circular: preferencia por productos reutilizables y reciclables. Servicios sostenibles: expansión de sectores con bajo impacto ambiental.")
         figcaption(data-aos="zoom-in-right") 
           <b>Fuente:</b> SENA, 2025.
     

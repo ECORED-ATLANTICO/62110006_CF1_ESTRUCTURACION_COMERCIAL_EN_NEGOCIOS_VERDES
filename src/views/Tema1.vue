@@ -32,7 +32,7 @@
         figure
           img(src="@/assets/curso/temas/tema_1/img_2.png", class="img-fluid")
       .col-12.col-lg-9(data-aos="zoom-in-right")
-        p.mb-3 En Colombia, el desarrollo de los negocios verdes está respaldado por un conjunto de políticas y normativas que integran el cuidado del medio ambiente con la dimensión económica y social del desarrollo sostenible. Uno de los principales instrumentos que orienta esta visión es la Política nacional de producción y consumo sostenible (PNPCS), formulada en el año 2010 por el Ministerio de Ambiente y Desarrollo Sostenible. Esta política busca promover prácticas de producción más limpias, el uso eficiente de los recursos y el consumo responsable, sentando las bases para el fomento de iniciativas empresariales ambientalmente sostenibles.
+        p.mb-3 En Colombia, el desarrollo de los negocios verdes está respaldado por un conjunto de políticas y normativas que integran el cuidado del medio ambiente con la dimensión económica y social del desarrollo sostenible. Uno de los principales instrumentos que orienta esta visión es la Política Nacional de Producción y Consumo Sostenible (PNPCS), formulada en el año 2010 por el Ministerio de Ambiente y Desarrollo Sostenible. Esta política busca promover prácticas de producción más limpias, el uso eficiente de los recursos y el consumo responsable, sentando las bases para el fomento de iniciativas empresariales ambientalmente sostenibles.
         p.mb-0 A partir de este marco general, se han creado herramientas específicas para fortalecer la gestión de estos negocios. Entre ellas, se destaca la Resolución 196 de 2018, la cual establece los criterios de evaluación, verificación y seguimiento de los negocios verdes en el país. Esta resolución permite clasificar los emprendimientos que cumplen con los principios de sostenibilidad, garantizando que sus actividades generen impactos positivos en el entorno natural y social.
     
     .row.justify-content-center.align-items-center.mb-5
@@ -97,27 +97,27 @@
                 th.col-4.col-lg-4 Beneficio ambiental y social
             tbody
               tr
-                td Agricultura ecológica	
+                td Agricultura ecológica.	
                 td Comercialización de productos orgánicos y certificados a nivel nacional e internacional.
                 td Uso sostenible del suelo, reducción de agroquímicos, generación de empleo rural.
               tr
-                td Turismo de naturaleza (ecoturismo)
+                td Turismo de naturaleza (ecoturismo).
                 td Creación de rutas y destinos turísticos sostenibles.
                 td Conservación de ecosistemas y patrimonio natural, participación de comunidades locales.
               tr
-                td Energías alternativas
+                td Energías alternativas.
                 td Inversión en energías renovables (solar, eólica, biomasa).
                 td Disminución de gases de efecto invernadero, acceso a energía limpia en zonas rurales.
               tr
-                td Biocomercio
+                td Biocomercio.
                 td Desarrollo de productos derivados de la biodiversidad (cosméticos, alimentos funcionales).
                 td Aprovechamiento responsable de la biodiversidad, impulso a la economía local.
               tr
-                td Reutilización de residuos
+                td Reutilización de residuos.
                 td Emprendimientos de reciclaje, economía circular, productos a partir de materiales usados.
                 td Reducción de residuos, ahorro de materias primas, conciencia ambiental.
               tr
-                td Moda y diseño sostenible
+                td Moda y diseño sostenible.
                 td Producción de ropa ecológica con fibras naturales o recicladas.
                 td Disminución de la contaminación textil, consumo responsable.
 
@@ -179,7 +179,7 @@
               .info-cards-container.mb-3
                 .info-card(data-card="1")
                   .card-content.px-3
-                    .h5.mb-2 Transparencia y lucha contra el greenwashing
+                    .h5.mb-2 Transparencia y lucha contra el <em>greenwashing</em>
                     p.mb-0 Mayor exigencia de veracidad en las afirmaciones ambientales. Las empresas deben respaldar sus mensajes con datos verificables y estudios rigurosos.
                 .info-card(data-card="2")
                   .card-content.px-3
