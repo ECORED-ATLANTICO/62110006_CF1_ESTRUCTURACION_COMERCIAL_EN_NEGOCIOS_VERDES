@@ -103,7 +103,7 @@
               .col-12.col-lg-2.cita--link__icono.text-center
                 figure.mb-0
                   img(src='@/assets/curso/temas/tema_1/img_14.svg', class="img-fluid")
-              .col-12.col-lg-6
+              .col-12.col-lg-6.text-center.text
                 p.cita--link__subtitulo.mb-0 Ir al video siguiente donde se explica el <em>brochure</em>, tipos y características: 
                 p.cita--link__titulo.mb-1 Guía para crear <em>brochure</em>
                   strong 

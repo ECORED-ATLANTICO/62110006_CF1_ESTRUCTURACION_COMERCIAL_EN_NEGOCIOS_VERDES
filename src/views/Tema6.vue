@@ -249,6 +249,10 @@
 
             img(src='@/assets/curso/temas/tema_6/img_14.svg', class="img-fluid d-none d-lg-block mb-0")
             img(src='@/assets/curso/temas/tema_6/img_15.svg', class="img-fluid d-block d-lg-none mb-0")
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-12
+        <br>
 </template>
 
 <script>
