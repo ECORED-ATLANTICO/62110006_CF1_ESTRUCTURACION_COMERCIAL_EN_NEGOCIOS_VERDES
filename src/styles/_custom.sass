@@ -731,7 +731,7 @@ figure.infografia-figure-container
   left: 0
   width: 100%
   height: 100%
-  z-index: 30 
+  z-index: 30
   pointer-events: none
 .info-card
   position: absolute
@@ -743,6 +743,7 @@ figure.infografia-figure-container
   padding: 1.5rem
   box-shadow: 0 4px 15px rgba(0,0,0,0.1)
   pointer-events: auto 
+  z-index: 30
 
   .card-content
     p
@@ -1149,19 +1150,20 @@ figure.infografia-3-figure-container
   left: 0
   width: 100%
   height: 100%
-  z-index: 5 
+  z-index: 2
   cursor: pointer 
   display: none
 
 .punto-info-3
   position: absolute
-  z-index: 20
+  z-index: 2
   cursor: pointer
   display: flex
   align-items: center
   justify-content: center
   
   .punto-numero-3
+    z-index: 2
     color: $white
     width: 35px
     height: 35px
@@ -1190,11 +1192,12 @@ figure.infografia-3-figure-container
   left: 0
   width: 100%
   height: 100%
-  z-index: 30 
+  z-index: 9999
   pointer-events: none
 
 .info-card-3
   position: absolute
+  z-index: 10000
   display: none
   flex-direction: column
   width: 280px

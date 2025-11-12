@@ -40,7 +40,7 @@
         figure
           img(src="@/assets/curso/temas/tema_1/img_3.svg", class="img-fluid")
       .col-12.col-lg-9(data-aos="zoom-in-right")
-        p.mb-0 Estas acciones están en plena consonancia con los objetivos de desarrollo sostenible (ODS) planteados en la Agenda 2030 de la Organización de las Naciones Unidas (ONU), especialmente con aquellos que promueven la acción por el clima (ODS 13), la vida de ecosistemas terrestres (ODS 15) y la producción y consumo responsables (ODS 12).
+        p.mb-0 Estas acciones están en plena consonancia con los Objetivos de Desarrollo Sostenible (ODS) planteados en la Agenda 2030 de la Organización de las Naciones Unidas (ONU), especialmente con aquellos que promueven la acción por el clima (ODS 13), la vida de ecosistemas terrestres (ODS 15) y la producción y consumo responsables (ODS 12).
     
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.order-2.order-lg-1(data-aos="zoom-in-right")
@@ -208,7 +208,7 @@
                 .info-card(data-card="8")
                   .card-content.px-3
                     .h5.mb-2 Comercio electrónico sostenible
-                    p.mb-0 Desarrollo de prácticas de e-commerce que minimizan el impacto ambiental, como envíos eficientes y embalajes ecológicos.
+                    p.mb-0 Desarrollo de prácticas de <em>e-commerce</em> que minimizan el impacto ambiental, como envíos eficientes y embalajes ecológicos.
                 .info-card(data-card="9")
                   .card-content.px-3
                     .h5.mb-2 Enfoque en la biodiversidad y capital natural
@@ -222,7 +222,7 @@
               img(src='@/assets/curso/temas/tema_1/img_11.svg', class="img-fluid d-none d-lg-block mb-0")
               img(src='@/assets/curso/temas/tema_1/img_12.svg', class="img-fluid d-block d-lg-none mb-0")
         .col-12.col-lg-10.mb-3
-          p.mb-0 Ir a los siguientes videos donde se muestra la dinámica e importancia de los negocios verdes hoy:
+          p.mb-0 Se recomienda revisar los siguientes videos donde se muestra la dinámica e importancia de los negocios verdes hoy:
       
     .row.justify-content-center.align-items-stretch.mb-5.g-4
       .col-12.col-lg-5(data-aos="zoom-in-right")

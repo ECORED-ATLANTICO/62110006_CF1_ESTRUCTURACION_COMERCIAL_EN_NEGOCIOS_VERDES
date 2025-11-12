@@ -89,7 +89,7 @@
             h5 Productos orgánicos
             p.mb-3 Producidos sin pesticidas ni químicos sintéticos.
             p.mb-0 <B>Ejemplo de producto verde:</B> frutas y verduras orgánicas certificadas.
-            p.mb-0 <B>Ejemplo de servicio verde:</B> servicio de catering con alimentos orgánicos y locales.
+            p.mb-0 <B>Ejemplo de servicio verde:</B> servicio de <em>catering</em> con alimentos orgánicos y locales.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_5/img_11.png', class="img-fluid")
@@ -115,8 +115,8 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5 Servicios ecoturísticos
             p.mb-3 Actividades que conservan la biodiversidad y benefician comunidades locales.
-            p.mb-0 <B>Ejemplo de producto verde:</B> Souvenirs hechos con materiales reciclados (producto).
-            p.mb-0 <B>Ejemplo de servicio verde:</B> tours guiados en reservas naturales con prácticas sustentables.
+            p.mb-0 <B>Ejemplo de producto verde:</B> <em>souvenirs</em> hechos con materiales reciclados (producto).
+            p.mb-0 <B>Ejemplo de servicio verde:</B> <em>tours</em> guiados en reservas naturales con prácticas sustentables.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_5/img_14.png', class="img-fluid")
@@ -159,7 +159,7 @@
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-lg-5.mb-4.mb-lg-0
                   h5.mb-3 Ecoeficiencia
-                  p.mb-0 optimizan el uso de insumos y energía para maximizar resultados con el menor impacto posible.
+                  p.mb-0 Optimizan el uso de insumos y energía para maximizar resultados con el menor impacto posible.
                 .col-8.col-lg-5.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_18.svg', class="img-fluid")(data-aos="fade-up")
@@ -167,7 +167,7 @@
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-lg-5.mb-4.mb-lg-0
                   h5.mb-3 Innovación ambiental
-                  p.mb-0 incorporan tecnologías limpias, procesos innovadores o materiales alternativos que minimizan la huella ecológica.
+                  p.mb-0 Incorporan tecnologías limpias, procesos innovadores o materiales alternativos que minimizan la huella ecológica.
                 .col-8.col-lg-5.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_5/img_19.svg', class="img-fluid")(data-aos="fade-up")

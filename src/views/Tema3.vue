@@ -196,13 +196,13 @@
       .col-12.col-lg-10(data-aos="zoom-in-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-20")
           div(titulo="Consumo consciente")
-            p.px-5.mb-0 los consumidores exigen mayor transparencia sobre el origen, la producción ética y los impactos ambientales y sociales de los productos. Esta exigencia favorece marcas con certificaciones y prácticas responsables.
+            p.px-5.mb-0 Los consumidores exigen mayor transparencia sobre el origen, la producción ética y los impactos ambientales y sociales de los productos. Esta exigencia favorece marcas con certificaciones y prácticas responsables.
           div(titulo="Digitalización educativa")
-            p.px-5.mb-0 las plataformas digitales, redes sociales y medios interactivos se han convertido en herramientas clave para informar y sensibilizar sobre sostenibilidad, promoviendo decisiones de compra más informadas.
+            p.px-5.mb-0 Las plataformas digitales, redes sociales y medios interactivos se han convertido en herramientas clave para informar y sensibilizar sobre sostenibilidad, promoviendo decisiones de compra más informadas.
           div(titulo="Economía circular")
-            p.px-5.mb-0 aumenta la preferencia por productos reutilizables, reparables o reciclables, reduciendo el desperdicio y alargando el ciclo de vida de los recursos. Este modelo impulsa el rediseño de procesos productivos más sostenibles.
+            p.px-5.mb-0 Aumenta la preferencia por productos reutilizables, reparables o reciclables, reduciendo el desperdicio y alargando el ciclo de vida de los recursos. Este modelo impulsa el rediseño de procesos productivos más sostenibles.
           div(titulo="Crecimiento de servicios sostenibles")
-            p.px-5.mb-0 sectores como el turismo ecológico, la moda ética, la movilidad eléctrica y las finanzas verdes están en expansión, respondiendo a una demanda creciente por experiencias y servicios con bajo impacto ambiental.
+            p.px-5.mb-0 Sectores como el turismo ecológico, la moda ética, la movilidad eléctrica y las finanzas verdes están en expansión, respondiendo a una demanda creciente por experiencias y servicios con bajo impacto ambiental.
 
     .row.justify-content-center.align-items-center
       .col-12.col-lg-10.mb-5

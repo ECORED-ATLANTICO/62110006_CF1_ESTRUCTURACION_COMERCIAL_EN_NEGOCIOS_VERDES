@@ -32,13 +32,14 @@
         .col-2.col-lg-3.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/tema_6/img_3.png', class="cita-decorada__imagen-flotante-1")
-        .col-12.col-lg-7.mb-lg-0.mb-3
+        .col-12.col-lg-7.mb-lg-0.mb-0
           p.mb-3 El valor agregado consiste en incorporar cualidades adicionales al producto o servicio, que lo hacen más atractivo, útil o valioso para el cliente. Estos atributos pueden estar relacionados con el cuidado del medioambiente, la innovación, la salud del consumidor, la comunidad o el diseño.
           p.mb-3 El paquete de beneficios representa el conjunto completo de ventajas que una persona recibe al comprar un producto o servicio. No solo se refiere a lo que se lleva físicamente, sino a la experiencia, garantía, valores de marca, sostenibilidad, atención al cliente y más.
-          .bloque-texto-b.color-secundario-10.p-3
+          .bloque-texto-b.color-secundario-10.p-1
             .bloque-texto-b__texto     
-              h4.mb-3.ps-3 El paquete total de beneficios que ofrece una empresa es lo que realmente consume el cliente, no solo el producto físico 
-          p.mb-0.text-end (Kotler &amp; Armstrong, 2017).
+              h4.mb-0.ps-0 El paquete total de beneficios que ofrece una empresa es lo que realmente consume el cliente, no solo el producto físico 
+              p.mb-0.text-end (Kotler &amp; Armstrong, 2017).
+          
 
       separador
 
@@ -103,28 +104,28 @@
             .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Conocer al cliente verde")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-lg-6.mb-4.mb-lg-0
-                  p.mb-0 identificar qué valores y causas sociales o ambientales valora el público objetivo.
+                  p.mb-0 Identificar qué valores y causas sociales o ambientales valora el público objetivo.
                 .col-8.col-lg-4.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_6/img_7.svg', class="img-fluid")(data-aos="fade-up")
             .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Construir una propuesta única")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-lg-6.mb-4.mb-lg-0
-                  p.mb-0 combinar calidad, sostenibilidad y experiencia para diferenciar el producto.
+                  p.mb-0 Combinar calidad, sostenibilidad y experiencia para diferenciar el producto.
                 .col-8.col-lg-4.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_6/img_8.svg', class="img-fluid")(data-aos="fade-up")
             .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Comunicar con transparencia")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-lg-6.mb-4.mb-lg-0
-                  p.mb-0 mostrar claramente los beneficios ambientales y sociales, con evidencia cuando sea posible (certificaciones, etiquetas, trazabilidad).
+                  p.mb-0 Mostrar claramente los beneficios ambientales y sociales, con evidencia cuando sea posible (certificaciones, etiquetas, trazabilidad).
                 .col-8.col-lg-4.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_6/img_9.svg', class="img-fluid")(data-aos="fade-up")
             .tarjeta.color-acento-contenido-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Incluir elementos de educación")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-lg-6.mb-4.mb-lg-0
-                  p.mb-0 aportar contenido que forme conciencia ecológica en el consumidor, como guías de reciclaje o información sobre impactos positivos del producto.
+                  p.mb-0 Aportar contenido que forme conciencia ecológica en el consumidor, como guías de reciclaje o información sobre impactos positivos del producto.
                 .col-8.col-lg-4.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema_6/img_10.svg', class="img-fluid")(data-aos="fade-up")
@@ -133,7 +134,7 @@
       .col-12.col-lg-10 
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Figura 7.
-          span Aplicabilidad TPDP en los productos y servicios verdes
+          span Aplicabilidad TPDP en los productos y servicios verdes.
         figure(data-aos="zoom-in-right").mb-3
           img(src='@/assets/curso/temas/tema_6/img_11.svg', class="img-fluid d-none d-lg-block mb-0", alt="En la imagen se describe la aplicación del modelo TPDP en negocios verdes. Cliente verde: identificar valores ambientales del consumidor. Propuesta única: combinar sostenibilidad, calidad y experiencia. Comunicación transparente: mostrar beneficios con evidencia verificable. Educación ecológica: incluir mensajes que formen conciencia ambiental.")
           img(src='@/assets/curso/temas/tema_6/img_12.svg', class="img-fluid d-block d-lg-none mb-0", alt="En la imagen se describe la aplicación del modelo TPDP en negocios verdes. Cliente verde: identificar valores ambientales del consumidor. Propuesta única: combinar sostenibilidad, calidad y experiencia. Comunicación transparente: mostrar beneficios con evidencia verificable. Educación ecológica: incluir mensajes que formen conciencia ambiental.")

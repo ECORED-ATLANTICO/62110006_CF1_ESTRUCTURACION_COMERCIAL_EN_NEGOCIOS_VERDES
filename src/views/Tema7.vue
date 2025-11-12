@@ -64,7 +64,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5.mb-3 Tiendas físicas ecoamigables
             p.mb-3 Locales diseñados con materiales sostenibles y políticas de ahorro energético.
-            h5.mb-0 Ejemplo.
+            h5.mb-0 Ejemplo:
             p.mb-0 Supermercado con iluminación LED y reciclaje.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -73,7 +73,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5.mb-3 Tiendas a granel
             p.mb-3 Venden productos sin empaques, invitando al consumidor a llevar sus propios envases.
-            h5.mb-0 Ejemplo.
+            h5.mb-0 Ejemplo:
             p.mb-0 Tienda de cereales, semillas, legumbres.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -82,7 +82,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5.mb-3 Plataformas digitales verdes
             p.mb-3 Comercio en línea que promueve productos sostenibles y reduce la huella de carbono.
-            h5.mb-0 Ejemplo.
+            h5.mb-0 Ejemplo:
             p.mb-0 Tienda <em>web</em> de cosméticos orgánicos.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -91,7 +91,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5.mb-3 Ferias o mercados ecológicos
             p.mb-3 Espacios temporales donde se ofrecen productos locales, orgánicos y artesanales.
-            h5.mb-0 Ejemplo.
+            h5.mb-0 Ejemplo:
             p.mb-0 Feria de agricultura orgánica en el barrio.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -100,7 +100,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5.mb-3 Showrooms sostenibles
             p.mb-3 Espacios para experimentar productos ecológicos antes de comprarlos, sin generar residuos.
-            h5.mb-0 Ejemplo.
+            h5.mb-0 Ejemplo:
             p.mb-0 Sala de exhibición de muebles reciclados.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -138,21 +138,21 @@
                   th.col-4.col-lg-4 Ejemplo
               tbody
                 tr
-                  td Canal de venta	
+                  td Canal de venta.	
                   td Físico / Digital / Híbrido.
                   td Tienda física ecológica vs. <em>e-commerce</em> sostenible
                 tr
-                  td Enfoque ambiental
-                  td Bajo impacto / Cero residuos / Circular
-                  td Tienda que reutiliza empaques o aplica economía circular
+                  td Enfoque ambiental.
+                  td Bajo impacto / Cero residuos / Circular.
+                  td Tienda que reutiliza empaques o aplica economía circular.
                 tr
-                  td Escala de operación
-                  td Local / Regional / Nacional / Internacional
-                  td Mercado campesino local vs. marca verde de alcance global
+                  td Escala de operación.
+                  td Local / Regional / Nacional / Internacional.
+                  td Mercado campesino local vs. marca verde de alcance global.
                 tr
-                  td Relación con el consumidor
-                  td Autoservicio / Experiencial / Educativo
-                  td Espacios donde el cliente puede aprender sobre reciclaje o producción limpia
+                  td Relación con el consumidor.
+                  td Autoservicio / Experiencial / Educativo.
+                  td Espacios donde el cliente puede aprender sobre reciclaje o producción limpia.
                 
 
 </template>

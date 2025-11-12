@@ -17,7 +17,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema_9/img_3.png', class="cita-decorada__imagen-flotante-2")
                 .col-10.col-lg-8
-                  p.cita-decorada__texto.mb-0 Por ejemplo, una tienda que vende productos a granel sin empaques plásticos aplica un formato comercial verde al reducir residuos desde la experiencia de compra.
+                  p.cita-decorada__texto.mb-0 Un <em>brochure</em> sostenible comunica con propósito y coherencia. Refleja el compromiso ambiental de la marca desde su diseño hasta su mensaje
               
       separador
 
@@ -53,7 +53,7 @@
             .col-12.col-lg-5.mb-3.mb-lg-0
               h5.mb-3 <em>Bi-fold</em> (díptico)
               p.mb-3 Se dobla una vez por la mitad (4 páginas). Es sencillo y directo.
-              h5.mb-0 Ejemplo.
+              h5.mb-0 Ejemplo:
               p.mb-0 Folleto que presenta un producto ecológico y sus beneficios en dos caras.
             .col-12.col-lg-5
               figure
@@ -62,7 +62,7 @@
             .col-12.col-lg-5.mb-3.mb-lg-0
               h5.mb-3 <em>Tri-fold</em> (tríptico)
               p.mb-3 Se divide en tres secciones. Permite organizar mejor la información.
-              h5.mb-0 Ejemplo.
+              h5.mb-0 Ejemplo:
               p.mb-0 Tríptico que incluye: presentación de la empresa verde, beneficios, y contacto.
             .col-12.col-lg-5
               figure
@@ -71,7 +71,7 @@
             .col-12.col-lg-5.mb-3.mb-lg-0
               h5.mb-3 <em>Brochure</em> digital
               p.mb-3 Se difunde por medios digitales (PDF, redes, correo). Ecológico y fácil de actualizar.
-              h5.mb-0 Ejemplo.
+              h5.mb-0 Ejemplo:
               p.mb-0 PDF interactivo que muestra una línea de cosméticos orgánicos con enlaces y videos.
             .col-12.col-lg-5
               figure
@@ -80,7 +80,7 @@
             .col-12.col-lg-5.mb-3.mb-lg-0
               h5.mb-3 Catálogo
               p.mb-3 <em>Brochure</em> más extenso que muestra todo el portafolio de productos o servicios.
-              h5.mb-0 Ejemplo.
+              h5.mb-0 Ejemplo:
               p.mb-0 Catálogo en línea con productos biodegradables para el hogar y fichas técnicas.
             .col-12.col-lg-5
               figure
@@ -89,7 +89,7 @@
             .col-12.col-lg-5.mb-3.mb-lg-0
               h5.mb-3 <em>Brochure</em> promocional
               p.mb-3 Diseñado para campañas específicas o lanzamiento de nuevos productos.
-              h5.mb-0 Ejemplo.
+              h5.mb-0 Ejemplo:
               p.mb-0 Folleto para campaña “Vuelve al origen”: nueva línea de alimentos agroecológicos.
             .col-12.col-lg-5
               figure

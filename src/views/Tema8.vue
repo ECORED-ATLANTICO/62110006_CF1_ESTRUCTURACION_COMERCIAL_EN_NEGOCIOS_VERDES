@@ -108,7 +108,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5.mb-3 Productos ecológicos
             p.mb-3 Bienes con diseño responsable, menor huella ecológica y ciclo de vida sostenible.
-            h5.mb-0 Ejemplo.
+            h5.mb-0 Ejemplo:
             p.mb-0 <em>Shampoo</em> sólido biodegradable, bolsas de yute reutilizables.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -117,7 +117,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5.mb-3 Servicios sostenibles
             p.mb-3 Ofertas que promueven el cuidado del entorno o uso eficiente de recursos.
-            h5.mb-0 Ejemplo.
+            h5.mb-0 Ejemplo;
             p.mb-0 Talleres de huertas urbanas, servicios de compostaje doméstico.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -126,7 +126,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5.mb-3 Paquetes combinados
             p.mb-3 Integración de productos + servicios con enfoque educativo o comunitario.
-            h5.mb-0 Ejemplo.
+            h5.mb-0 Ejemplo:
             p.mb-0 <em>Kit</em> de limpieza natural + guía de uso y reducción de residuos.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -135,7 +135,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5.mb-3 Información ambiental
             p.mb-3 Datos adicionales que fortalecen la confianza del consumidor verde.
-            h5.mb-0 Ejemplo.
+            h5.mb-0 Ejemplo:
             p.mb-0 Etiquetas ecológicas, certificaciones, trazabilidad del origen.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -179,7 +179,7 @@
                 figure.mb-0
                   img(src='@/assets/curso/temas/tema_1/img_14.svg', class="img-fluid")
               .col-12.col-lg-6.text-center.text
-                p.cita--link__subtitulo.mb-0 Ir al video Portafolio de productos y servicios:
+                p.cita--link__subtitulo.mb-0 Se recomienda ver el siguiente video:
                 p.cita--link__titulo.mb-1 Portafolio de productos y servicios
                   strong 
               .col-12.col-lg-4.text-center.text-lg-end

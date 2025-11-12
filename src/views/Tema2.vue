@@ -71,7 +71,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 h5.mb-3 Demanda consolidada
-                p.mb-0 Corresponde a un mercado donde los consumidores valoran activamente la sostenibilidad y buscan productos con certificaciones o atributos verdes claros, aceptando un precio premium a cambio de mayor responsabilidad ambiental.
+                p.mb-0 Corresponde a un mercado donde los consumidores valoran activamente la sostenibilidad y buscan productos con certificaciones o atributos verdes claros, aceptando un precio <em>premium</em> a cambio de mayor responsabilidad ambiental.
               .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_2/img_7.svg', class="img-fluid")(data-aos="fade-up")
@@ -117,13 +117,13 @@
         p.mb-3 Para evaluar el alcance y evolución de la demanda verde, se emplean diversas metodologías:
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-primario-20")
           div(titulo="Encuestas de opinión y mercado")
-            p.px-5.mb-0 instrumentos directos que recopilan información sobre percepciones, actitudes y comportamientos de los consumidores en relación con productos verdes. Estas encuestas ayudan a identificar barreras y motivadores de compra sostenible.
+            p.px-5.mb-0 Instrumentos directos que recopilan información sobre percepciones, actitudes y comportamientos de los consumidores en relación con productos verdes. Estas encuestas ayudan a identificar barreras y motivadores de compra sostenible.
           div(titulo="Análisis de ventas y cuotas de mercado")
-            p.px-5.mb-0 seguimiento cuantitativo de productos con certificación ambiental o atributos sostenibles para determinar la participación y crecimiento en el mercado.
+            p.px-5.mb-0 Seguimiento cuantitativo de productos con certificación ambiental o atributos sostenibles para determinar la participación y crecimiento en el mercado.
           div(titulo="Monitoreo digital")
-            p.px-5.mb-0 uso de herramientas de análisis de datos y tendencias online para detectar patrones en búsquedas, opiniones y consumo de productos verdes, aprovechando <em>big data</em> e inteligencia artificial.
+            p.px-5.mb-0 Uso de herramientas de análisis de datos y tendencias online para detectar patrones en búsquedas, opiniones y consumo de productos verdes, aprovechando <em>big data</em> e inteligencia artificial.
           div(titulo="Evaluación de imagen y reputación corporativa")
-            p.px-5.mb-0 análisis del posicionamiento de marcas respecto a sostenibilidad, mediante estudios de percepción y confianza del consumidor.
+            p.px-5.mb-0 Análisis del posicionamiento de marcas respecto a sostenibilidad, mediante estudios de percepción y confianza del consumidor.
         p.mb-0 Estos métodos combinados permiten obtener una visión integral de la demanda verde, facilitando la toma de decisiones estratégicas para impulsar su crecimiento (Peattie, 1995).
     
     .row.justify-content-center.align-items-center
@@ -197,22 +197,22 @@
                 .tarjeta--1.mb-3
                 .tarjeta--slider__title.mb-3.text-center.fw-bold.p-2
                   span.texto-resaltado Consumo consciente y transparente
-                .tarjeta--slider__content.text-center.mb-3 los consumidores exigen mayor transparencia sobre el origen, producción y ciclo de vida de los productos, favoreciendo aquellos con certificaciones reconocidas y prácticas éticas.
+                .tarjeta--slider__content.text-center.mb-3 Los consumidores exigen mayor transparencia sobre el origen, producción y ciclo de vida de los productos, favoreciendo aquellos con certificaciones reconocidas y prácticas éticas.
               .tarjeta.tarjeta--blanca-1.h-95
                 .tarjeta--2.mb-3
                 .tarjeta--slider__title.mb-3.text-center.fw-bold.p-2
                   span.texto-resaltado Digitalización como herramienta educativa
-                .tarjeta--slider__content.text-center plataformas digitales y redes sociales juegan un papel fundamental en informar y sensibilizar sobre temas ambientales, influyendo directamente en las decisiones de compra.
+                .tarjeta--slider__content.text-center Plataformas digitales y redes sociales juegan un papel fundamental en informar y sensibilizar sobre temas ambientales, influyendo directamente en las decisiones de compra.
               .tarjeta.tarjeta--blanca-1.h-95
                 .tarjeta--3.mb-3
                 .tarjeta--slider__title.mb-3.text-center.fw-bold.p-2
                   span.texto-resaltado Preferencia por modelos de economía circular
-                .tarjeta--slider__content.text-center hay un interés creciente en productos que permiten su reutilización, reciclaje o reducción de residuos, extendiendo su ciclo útil y minimizando el desperdicio.
+                .tarjeta--slider__content.text-center Hay un interés creciente en productos que permiten su reutilización, reciclaje o reducción de residuos, extendiendo su ciclo útil y minimizando el desperdicio.
               .tarjeta.tarjeta--blanca-1.h-95
                 .tarjeta--4.mb-3
                 .tarjeta--slider__title.mb-3.text-center.fw-bold.p-2
                   span.texto-resaltado Crecimiento de servicios sostenibles
-                .tarjeta--slider__content.text-center más allá de productos, sectores como el turismo ecológico, la moda ética y las finanzas verdes experimentan un aumento notable, diversificando la oferta sostenible.
+                .tarjeta--slider__content.text-center Más allá de productos, sectores como el turismo ecológico, la moda ética y las finanzas verdes experimentan un aumento notable, diversificando la oferta sostenible.
         .col-8.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/temas/tema_2/img_21.png', class="img-fluid")

@@ -304,7 +304,7 @@ export default {
         {
           id: 13,
           texto:
-            'Un brochure verde no necesita destacar los beneficios ecológicos del producto.',
+            'Un <em>brochure</em> verde no necesita destacar los beneficios ecológicos del producto.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
