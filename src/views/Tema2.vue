@@ -96,7 +96,7 @@
       .col-12.col-lg-10.mb-5
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Figura 1.
-          span Clasificación de la demanda sostenible
+          span Clasificación de la demanda sostenible.
         figure(data-aos="zoom-in-right")
           img(src='@/assets/curso/temas/tema_2/img_10.svg', class="img-fluid d-none d-lg-block mb-3", alt="En la imagen se muestra las clases de demanda verde: Demanda latente: hay interés por productos verdes, pero falta oferta o información. Demanda emergente: aumenta la conciencia ambiental, pero no todos pagan más. Demanda consolidada: los consumidores valoran la sostenibilidad y pagan por ella. Demanda creciente: el consumo verde se expande y se vuelve común.")
           img(src='@/assets/curso/temas/tema_2/img_11.svg', class="img-fluid d-block d-lg-none mb-3", alt="En la imagen se muestra las clases de demanda verde: Demanda latente: hay interés por productos verdes, pero falta oferta o información. Demanda emergente: aumenta la conciencia ambiental, pero no todos pagan más. Demanda consolidada: los consumidores valoran la sostenibilidad y pagan por ella. Demanda creciente: el consumo verde se expande y se vuelve común.")
@@ -237,7 +237,7 @@
           .h2(data-aos="fade-right") 2.6 Proyección
         .mb-3
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-6.mb-lg-0.mb-3
         .bloque-texto-b.color-secundario-10.p-4
           .bloque-texto-b__texto
@@ -246,6 +246,8 @@
             i.fas.fa-quote-right
       .col-12.col-lg-4
         p.mb-3 Este crecimiento implica grandes oportunidades económicas, sociales y ambientales para las próximas generaciones.
+    .row.justify-content-center.align-items-center.mb-5  
+      .col-12.col-lg-10.mb-3
         p.mb-0 Se proyecta que la demanda verde tendrá un crecimiento exponencial en las próximas décadas, sustentado en diversos factores:
     
     .row.justify-content-center.align-items-center.mb-3

@@ -60,7 +60,7 @@
       .col-12.col-lg-10     
         .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
           h5 Tabla 5.
-          span Tipos de cliente verde.
+          span Estructura del paquete de beneficios en negocios sostenibles.
         .tabla-a.mb-5(data-aos="zoom-in-right")
           table
             caption 
@@ -72,15 +72,15 @@
                 th.col-4.col-lg-4 Ejemplo
             tbody
               tr
-                td Beneficio central
+                td Beneficio central.
                 td Es la necesidad básica que satisface el producto o servicio. 
                 td Un jabón limpia la piel.
               tr
-                td Producto real
+                td Producto real.
                 td Son las características físicas: diseño, marca, presentación.
                 td Jabón natural con aroma de eucalipto y envase reciclable.
               tr
-                td Producto aumentado
+                td Producto aumentado.
                 td Son los servicios o valores añadidos: atención, sostenibilidad, garantías.
                 td Promueve el comercio justo, es biodegradable, y viene con consejos ecológicos impresos.
     
@@ -145,7 +145,7 @@
       .col-1.col-lg-1.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema_6/img_13.png', class="img-fluid d-none d-lg-block mb-0")
       .col-12.col-lg-9.mb-lg-0.mb-3
-        p.mb-3 A continuación, presentamos una tabla TPDP enfocada en negocios verdes, que ilustra cómo aplicar el valor agregado y el paquete de beneficios:
+        p.mb-3 A continuación, presentamos diferentes ejemplos que ilustran cómo aplicar el valor agregado y el paquete de beneficios:
         h5.mb-0 Ejemplos de aplicabilidad de valor agregado en negocios verdes:
 
     .row.justify-content-center.align-items-center.mb-5
@@ -244,7 +244,7 @@
               .info-card-3(data-card="9")
                 .card-content-3.px-3
                   h5.mb-0 Muebles reciclados
-                  p.mb-3 Hogar limpio sin dañar el medioambiente.
+                  p.mb-3 Fabricados con madera recuperada.
                   h5.mb-0 Beneficio para el cliente. 
                   p.mb-0 Diseño original y reutilización de materiales.
 

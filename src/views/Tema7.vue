@@ -140,7 +140,7 @@
                 tr
                   td Canal de venta.	
                   td Físico / Digital / Híbrido.
-                  td Tienda física ecológica vs. <em>e-commerce</em> sostenible
+                  td Tienda física ecológica vs. <em>e-commerce</em> sostenible.
                 tr
                   td Enfoque ambiental.
                   td Bajo impacto / Cero residuos / Circular.

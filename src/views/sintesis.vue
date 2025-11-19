@@ -6,7 +6,7 @@
       .col-12.col-lg-2.mb-lg-0.mb-3
         img(src="@/assets/curso/sintesis/img_1.png", class="img-fluid")
       .col-12.col-lg-10
-        p El componente Comercio sostenible te permitirá comprender qué son los negocios verdes, su marco legal en Colombia, y las oportunidades y tendencias que los rodean. Aprenderás a identificar y analizar la demanda y la oferta verde, sus métodos, efectos y proyecciones. También reconocerás el perfil del cliente verde y sus características, conocerás los tipos de productos y servicios sostenibles, y comprenderás cómo generar valor agregado. Finalmente, explorarás formatos comerciales responsables, construirás portafolios sostenibles y aprenderás a diseñar brochures para comunicar con impacto en mercados comprometidos con el medioambiente.
+        p El componente Comercio sostenible te permitirá comprender qué son los negocios verdes, su marco legal en Colombia, y las oportunidades y tendencias que los rodean. Aprenderás a identificar y analizar la demanda y la oferta verde, sus métodos, efectos y proyecciones. También reconocerás el perfil del cliente verde y sus características, conocerás los tipos de productos y servicios sostenibles, y comprenderás cómo generar valor agregado. Finalmente, explorarás formatos comerciales responsables, construirás portafolios sostenibles y aprenderás a diseñar <em>brochures</em> para comunicar con impacto en mercados comprometidos con el medioambiente.
 
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad

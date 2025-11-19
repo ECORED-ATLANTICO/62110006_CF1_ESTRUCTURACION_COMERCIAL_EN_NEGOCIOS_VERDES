@@ -73,6 +73,11 @@
                   h5.mb-0 Negocios circulares
                   p.mb-3 Modelos de producción y consumo basados en la reutilización, el reciclaje y la reducción de residuos.
                   p.mb-0 <B>Ejemplo:</B> ropa reciclada, envases retornables.
+              .row.justify-content-center.align-items-center
+                .col-12.col-lg-10.mb-0
+                  h5.mb-0 Agricultura sostenible
+                  p.mb-3 Prácticas agrícolas que conservan el suelo, reducen agroquímicos y promueven la biodiversidad.
+                  p.mb-0 <B>Ejemplo:</B> agroecología, sistemas silvopastoriles.
 
       separador
 

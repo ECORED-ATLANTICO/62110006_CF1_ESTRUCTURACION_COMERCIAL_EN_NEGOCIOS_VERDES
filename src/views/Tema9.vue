@@ -17,7 +17,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema_9/img_3.png', class="cita-decorada__imagen-flotante-2")
                 .col-10.col-lg-8
-                  p.cita-decorada__texto.mb-0 Un <em>brochure</em> sostenible comunica con propósito y coherencia. Refleja el compromiso ambiental de la marca desde su diseño hasta su mensaje
+                  p.cita-decorada__texto.mb-0 Un <em>brochure</em> sostenible comunica con propósito y coherencia. Refleja el compromiso ambiental de la marca desde su diseño hasta su mensaje.
               
       separador
 
@@ -43,7 +43,7 @@
     
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10(data-aos="zoom-in-right")
-          p.mb-3 Los formatos comerciales verdes pueden variar según su diseño, tamaño, canal de venta o modelo operativo. A continuación, se presentan algunos de los más comunes:
+          p.mb-3 A continuación, se presentan los tipos más comunes de <em>brochures</em> y cómo se adaptan a los negocios verdes:
           h5.mb-0 Tipos de portafolio y su adaptación verde:
     
     .bg_img_10.mb-5
@@ -104,8 +104,8 @@
                 figure.mb-0
                   img(src='@/assets/curso/temas/tema_1/img_14.svg', class="img-fluid")
               .col-12.col-lg-6.text-center.text
-                p.cita--link__subtitulo.mb-0 Ir al video siguiente donde se explica el <em>brochure</em>, tipos y características: 
                 p.cita--link__titulo.mb-1 Guía para crear <em>brochure</em>
+                p.cita--link__subtitulo.mb-0 Se recomienda revisar el siguiente video donde se explica cómo crear un <em>brochure</em> efectivo, tipos y características.
                   strong 
               .col-12.col-lg-4.text-center.text-lg-end
                 a.boton.color-acento-botones.d-inline-flex.align-items-center.gap-2(href="https://www.youtube.com/watch?v=X0eC1yLRASk" target="_blank")

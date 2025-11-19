@@ -52,7 +52,7 @@
           .col-12.col-lg-7
             .p-4.p-lg-5.d-flex.align-items-center.h-100
               div
-                p.mb-3 Los productos y servicios verdes se distinguen por una serie de atributos que los hacen especialmente valiosos dentro del marco del desarrollo sostenible. Estas características permiten no solo reducir el impacto ambiental, sino también promover prácticas responsables y generar confianza en los consumidores.
+                p.mb-3 Los productos y servicios verdes se pueden clasificar según el enfoque que adoptan para promover la sostenibilidad ambiental, optimizar recursos y reducir la contaminación. Esta clasificación ayuda tanto a consumidores como a empresas a identificar opciones responsables y ecológicas. A continuación, se presenta una tabla que describe los principales tipos de productos y servicios verdes, junto con sus definiciones y ejemplos ilustrativos.
                 h5.mb-0 Tipos de productos y servicios verdes:
         
     .bg_img_10.mb-0

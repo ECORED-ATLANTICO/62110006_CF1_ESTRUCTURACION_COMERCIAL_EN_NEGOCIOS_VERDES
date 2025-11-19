@@ -100,8 +100,13 @@
                 .tarjeta--slider__content.text-center Muestra por qué es una oferta “verde” y cómo se alinea con los valores del consumidor consciente.
         .col-8.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure
-            img(src='@/assets/curso/temas/tema_8/img_12.png', class="img-fluid")
-    
+            img(src='@/assets/curso/temas/tema_8/img_12.png', class="img-fluid") 
+
+    .row.justify-content-center.align-items-center
+      .col-12.col-lg-12.mb-3
+        p.mb-3 <b>Ejemplo de estructura del portafolio:</b>
+        <br>
+
     .bg_img_10.mb-0
       SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
         .row.justify-content-center.align-items-center
@@ -117,7 +122,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5.mb-3 Servicios sostenibles
             p.mb-3 Ofertas que promueven el cuidado del entorno o uso eficiente de recursos.
-            h5.mb-0 Ejemplo;
+            h5.mb-0 Ejemplo:
             p.mb-0 Talleres de huertas urbanas, servicios de compostaje doméstico.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
